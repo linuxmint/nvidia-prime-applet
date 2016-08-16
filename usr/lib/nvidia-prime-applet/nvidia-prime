@@ -2,9 +2,11 @@
 
 import sys, os
 import gettext
-from gi.repository import Gtk, Gdk
 import subprocess
 import commands
+import gi
+gi.require_version('Gtk', '3.0')
+from gi.repository import Gtk, Gdk
 
 # i18n
 gettext.install("nvidia-prime-applet", "/usr/share/locale")
@@ -61,6 +63,39 @@ class Tray:
     def terminate(self, window = None, data = None):
         Gtk.main_quit()
 
+class Indicator:
+    def __init__(self):
+        self.icon = AppIndicator.Indicator.new('nvidia-prime', '', AppIndicator.IndicatorCategory.APPLICATION_STATUS)
+        self.icon.set_status(AppIndicator.IndicatorStatus.ACTIVE)
+
+        active_gpu = commands.getoutput("prime-select query")
+        if (active_gpu == "nvidia"):
+            self.icon.set_icon("prime-tray-nvidia")
+            self.icon.set_title(_("Active graphics card: NVIDIA"))
+        elif (active_gpu == "intel"):
+            self.icon.set_icon("prime-tray-intel")
+            self.icon.set_title(_("Active graphics card: Intel"))
+        else:
+            self.icon.set_icon("dialog-error")
+            self.icon.set_title(_("Active graphics card: " + active_gpu))
+
+        menu = Gtk.Menu()
+        item = Gtk.MenuItem(label=_("NVIDIA Settings"))
+        item.connect("activate", self.run_nvidia_settings)
+        menu.append(item)
+        menu.append(Gtk.SeparatorMenuItem())
+        item = Gtk.MenuItem(label=_("Quit"))
+        item.connect("activate", self.terminate)
+        menu.append(item)
+        menu.show_all()
+        self.icon.set_menu(menu)
+
+    def run_nvidia_settings (self, arg=None):
+        subprocess.Popen(["nvidia-settings", "-page", "PRIME Profiles"])
+
+    def terminate(self, window = None, data = None):
+        Gtk.main_quit()
+
 if __name__ == "__main__":
 
     # If nvidia-prime isn't installed or isn't supported, exit cleanly
@@ -70,5 +105,10 @@ if __name__ == "__main__":
     if commands.getoutput("prime-supported 2>/dev/null") != "yes":
         sys.exit(0)
 
-    Tray()
+    if os.getenv("XDG_CURRENT_DESKTOP") == "KDE":
+        gi.require_version('AppIndicator3', '0.1')
+        from gi.repository import AppIndicator3 as AppIndicator
+        Indicator()
+    else:
+        Tray()
     Gtk.main()
