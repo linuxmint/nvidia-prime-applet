@@ -1,3 +1,10 @@
+nvidia-prime-applet (1.0.7) tara; urgency=medium
+
+  [ NikoKrause ]
+  * applet: use symbolic nvidia/intel icons (#3)
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 07 May 2018 13:40:14 +0100
+
 nvidia-prime-applet (1.0.6) serena; urgency=medium
 
   [ brownsr ]
