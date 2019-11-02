@@ -1,16 +1,21 @@
-#!/usr/bin/env python2
-
-import sys, os
+#!/usr/bin/python3
 import gettext
-import subprocess
-import commands
 import gi
+import os
+import subprocess
+import sys
+
 gi.require_version('Gtk', '3.0')
 gi.require_version('XApp', '1.0')
-from gi.repository import Gtk, Gdk, XApp
+from gi.repository import Gtk, XApp
 
 # i18n
 gettext.install("nvidia-prime-applet", "/usr/share/locale")
+
+def get_output(commands):
+    process = subprocess.Popen(commands, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
+    out, err = process.communicate()
+    return out.decode('utf-8').strip()
 
 class Tray:
     def __init__(self):
@@ -30,7 +35,7 @@ class Tray:
         menu.show_all()
         self.icon.set_secondary_menu(menu)
 
-        active_gpu = commands.getoutput("prime-select query")
+        active_gpu = get_output(["prime-select", "query"])
         if (active_gpu == "nvidia"):
             self.icon.set_icon_name("prime-tray-nvidia")
             self.icon.set_tooltip_text(_("Active graphics card: NVIDIA"))
@@ -56,7 +61,8 @@ if __name__ == "__main__":
     if not (os.path.exists("/usr/bin/nvidia-settings") and os.path.exists("/usr/bin/prime-select")):
         sys.exit(0)
 
-    if commands.getoutput("prime-supported 2>/dev/null") != "yes":
+    output = get_output(["prime-supported"])
+    if output != "yes":
         sys.exit(0)
 
     Tray()
