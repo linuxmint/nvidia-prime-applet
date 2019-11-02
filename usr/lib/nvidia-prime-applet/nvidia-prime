@@ -6,7 +6,8 @@ import subprocess
 import commands
 import gi
 gi.require_version('Gtk', '3.0')
-from gi.repository import Gtk, Gdk
+gi.require_version('XApp', '1.0')
+from gi.repository import Gtk, Gdk, XApp
 
 # i18n
 gettext.install("nvidia-prime-applet", "/usr/share/locale")
@@ -14,84 +15,37 @@ gettext.install("nvidia-prime-applet", "/usr/share/locale")
 class Tray:
     def __init__(self):
 
-        self.icon = Gtk.StatusIcon()
-        self.icon.set_title("nvidia-prime")
-        self.icon.connect("popup-menu", self.on_popup_menu)
+        self.icon = XApp.StatusIcon()
+        self.icon.set_name("nvidia-prime")
         self.icon.connect("activate", self.on_activate)
+
+        menu = Gtk.Menu()
+        item = Gtk.MenuItem(label=_("NVIDIA Settings"))
+        item.connect("activate", self.run_nvidia_settings)
+        menu.append(item)
+        menu.append(Gtk.SeparatorMenuItem())
+        item = Gtk.MenuItem(label=_("Quit"))
+        item.connect("activate", self.terminate)
+        menu.append(item)
+        menu.show_all()
+        self.icon.set_secondary_menu(menu)
 
         active_gpu = commands.getoutput("prime-select query")
         if (active_gpu == "nvidia"):
-            self.icon.set_from_icon_name("prime-tray-nvidia")
+            self.icon.set_icon_name("prime-tray-nvidia")
             self.icon.set_tooltip_text(_("Active graphics card: NVIDIA"))
         elif (active_gpu == "intel"):
-            self.icon.set_from_icon_name("prime-tray-intel")
+            self.icon.set_icon_name("prime-tray-intel")
             self.icon.set_tooltip_text(_("Active graphics card: Intel"))
         else:
-            self.icon.set_from_icon_name("dialog-error")
+            self.icon.set_icon_name("dialog-error")
             self.icon.set_tooltip_text(_("Active graphics card: " + active_gpu))
 
-    def on_activate(self, icon, data=None):
+    def on_activate(self, icon, button, time, data=None):
         self.run_nvidia_settings();
 
     def run_nvidia_settings (self, arg=None):
-        subprocess.Popen(["nvidia-settings", "-page", "PRIME Profiles"])
-
-    def on_popup_menu(self, icon, button, time, data = None):
-        menu = Gtk.Menu()
-
-        def position_menu_cb(m, x, y=None, i=None):
-            try:
-                return Gtk.StatusIcon.position_menu(menu, x, y, icon)
-            except (AttributeError, TypeError):
-                return Gtk.StatusIcon.position_menu(menu, icon)
-
-        item = Gtk.MenuItem(label=_("NVIDIA Settings"))
-        item.connect("activate", self.run_nvidia_settings)
-        menu.append(item)
-
-        menu.append(Gtk.SeparatorMenuItem())
-
-        item = Gtk.MenuItem(label=_("Quit"))
-        item.connect("activate", self.terminate)
-        menu.append(item)
-
-        menu.show_all()
-
-        device = Gdk.Display.get_default().get_device_manager().get_client_pointer()
-        menu.popup_for_device(device, None, None, position_menu_cb, icon, button, time)
-
-    def terminate(self, window = None, data = None):
-        Gtk.main_quit()
-
-class Indicator:
-    def __init__(self):
-        self.icon = AppIndicator.Indicator.new('nvidia-prime', '', AppIndicator.IndicatorCategory.APPLICATION_STATUS)
-        self.icon.set_status(AppIndicator.IndicatorStatus.ACTIVE)
-
-        active_gpu = commands.getoutput("prime-select query")
-        if (active_gpu == "nvidia"):
-            self.icon.set_icon("prime-tray-nvidia")
-            self.icon.set_title(_("Active graphics card: NVIDIA"))
-        elif (active_gpu == "intel"):
-            self.icon.set_icon("prime-tray-intel")
-            self.icon.set_title(_("Active graphics card: Intel"))
-        else:
-            self.icon.set_icon("dialog-error")
-            self.icon.set_title(_("Active graphics card: " + active_gpu))
-
-        menu = Gtk.Menu()
-        item = Gtk.MenuItem(label=_("NVIDIA Settings"))
-        item.connect("activate", self.run_nvidia_settings)
-        menu.append(item)
-        menu.append(Gtk.SeparatorMenuItem())
-        item = Gtk.MenuItem(label=_("Quit"))
-        item.connect("activate", self.terminate)
-        menu.append(item)
-        menu.show_all()
-        self.icon.set_menu(menu)
-
-    def run_nvidia_settings (self, arg=None):
-        subprocess.Popen(["nvidia-settings", "-page", "PRIME Profiles"])
+        subprocess.Popen(["nvidia-settings", "-page", "PRIME Profiles"])        
 
     def terminate(self, window = None, data = None):
         Gtk.main_quit()
@@ -105,10 +59,5 @@ if __name__ == "__main__":
     if commands.getoutput("prime-supported 2>/dev/null") != "yes":
         sys.exit(0)
 
-    if os.getenv("XDG_CURRENT_DESKTOP") == "KDE":
-        gi.require_version('AppIndicator3', '0.1')
-        from gi.repository import AppIndicator3 as AppIndicator
-        Indicator()
-    else:
-        Tray()
+    Tray()
     Gtk.main()
