@@ -37,13 +37,13 @@ class Tray:
 
         active_gpu = get_output(["prime-select", "query"])
         if (active_gpu == "nvidia"):
-            self.icon.set_icon_name("prime-tray-nvidia")
+            self.icon.set_icon_name("prime-tray-nvidia-symbolic")
             self.icon.set_tooltip_text(_("Active graphics card: NVIDIA"))
         elif (active_gpu == "intel"):
-            self.icon.set_icon_name("prime-tray-intel")
+            self.icon.set_icon_name("prime-tray-intel-symbolic")
             self.icon.set_tooltip_text(_("Active graphics card: Intel"))
         else:
-            self.icon.set_icon_name("dialog-error")
+            self.icon.set_icon_name("dialog-error-symbolic")
             self.icon.set_tooltip_text(_("Active graphics card: " + active_gpu))
 
     def on_activate(self, icon, button, time, data=None):
