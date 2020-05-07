@@ -42,6 +42,9 @@ class Tray:
         elif (active_gpu == "intel"):
             self.icon.set_icon_name("prime-tray-intel-symbolic")
             self.icon.set_tooltip_text(_("Active graphics card: Intel"))
+        elif (active_gpu == "on-demand"):
+            self.icon.set_icon_name("prime-tray-intel-symbolic")
+            self.icon.set_tooltip_text(_("Active graphics card: On-demand"))
         else:
             self.icon.set_icon_name("dialog-error-symbolic")
             self.icon.set_tooltip_text(_("Active graphics card: " + active_gpu))
