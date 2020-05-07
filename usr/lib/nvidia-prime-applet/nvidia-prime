@@ -45,15 +45,12 @@ class Tray:
         if (active_gpu == "nvidia"):
             self.icon.set_icon_name("prime-tray-nvidia-symbolic")
             mode = NVIDIA_MODE
-            nvidia.set_sensitive(False)
         elif (active_gpu == "on-demand"):
             self.icon.set_icon_name("prime-tray-intel-symbolic")
             mode = ON_DEMAND_MODE
-            ondemand.set_sensitive(False)
         elif (active_gpu == "intel"):
             self.icon.set_icon_name("prime-tray-intel-symbolic")
             mode = INTEL_MODE
-            intel.set_sensitive(False)
         else:
             self.icon.set_icon_name("dialog-error-symbolic")
             mode = _("Unknown mode")
@@ -69,9 +66,16 @@ class Tray:
             menu.append(item)
             menu.append(Gtk.SeparatorMenuItem())
 
-        menu.append(intel)
-        menu.append(nvidia)
-        menu.append(ondemand)
+        item = Gtk.MenuItem(label=_("Active profile: %s") % mode)
+        item.set_sensitive(False)
+        menu.append(item)
+        
+        if mode != INTEL_MODE:
+            menu.append(intel)
+        if mode != NVIDIA_MODE:
+            menu.append(nvidia)
+        if mode != ON_DEMAND_MODE:
+            menu.append(ondemand)
 
         menu.append(Gtk.SeparatorMenuItem())
 
