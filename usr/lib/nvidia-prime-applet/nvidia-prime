@@ -25,6 +25,37 @@ class Tray:
         self.icon.connect("activate", self.on_activate)
 
         menu = Gtk.Menu()
+
+        active_gpu = get_output(["prime-select", "query"])
+        if (active_gpu == "nvidia"):
+            self.icon.set_icon_name("prime-tray-nvidia-symbolic")
+            mode = _("Performance mode")
+        elif (active_gpu == "intel"):
+            self.icon.set_icon_name("prime-tray-intel-symbolic")
+            mode = _("Power saving mode")
+        elif (active_gpu == "on-demand"):
+            self.icon.set_icon_name("prime-tray-intel-symbolic")
+            mode = _("On demand mode")
+        else:
+            self.icon.set_icon_name("dialog-error-symbolic")
+            mode = _("Unknown mode")
+
+        renderer = None
+        try:
+            renderer = subprocess.check_output("glxinfo | grep -i 'OpenGL renderer'", shell=True).decode("UTF-8").strip().split(": ")[1]
+        except:
+            pass
+
+        if renderer is None:
+            self.icon.set_tooltip_text(mode)
+        else:
+            self.icon.set_tooltip_text("%s\n%s" % (renderer, mode))
+            item = Gtk.MenuItem(label=renderer)
+            item.set_sensitive(False)
+            menu.append(item)
+            menu.append(Gtk.SeparatorMenuItem())
+
+        
         item = Gtk.MenuItem(label=_("NVIDIA Settings"))
         item.connect("activate", self.run_nvidia_settings)
         menu.append(item)
@@ -39,20 +70,6 @@ class Tray:
         menu.append(item)
         menu.show_all()
         self.icon.set_secondary_menu(menu)
-
-        active_gpu = get_output(["prime-select", "query"])
-        if (active_gpu == "nvidia"):
-            self.icon.set_icon_name("prime-tray-nvidia-symbolic")
-            self.icon.set_tooltip_text(_("Active graphics card: NVIDIA"))
-        elif (active_gpu == "intel"):
-            self.icon.set_icon_name("prime-tray-intel-symbolic")
-            self.icon.set_tooltip_text(_("Active graphics card: Intel"))
-        elif (active_gpu == "on-demand"):
-            self.icon.set_icon_name("prime-tray-intel-symbolic")
-            self.icon.set_tooltip_text(_("Active graphics card: On-demand"))
-        else:
-            self.icon.set_icon_name("dialog-error-symbolic")
-            self.icon.set_tooltip_text(_("Active graphics card: " + active_gpu))
 
     def on_activate(self, icon, button, time, data=None):
         self.run_nvidia_settings();

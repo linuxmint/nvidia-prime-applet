@@ -7,6 +7,6 @@ Standards-Version: 3.9.5
 
 Package: nvidia-prime-applet
 Architecture: all
-Depends: python3, gir1.2-xapp-1.0
+Depends: python3, gir1.2-xapp-1.0, mesa-utils
 Description: An applet for NVIDIA Prime
  Displays the active GPU and lets you switch to the other one on NVIDIA Optimus cards.
