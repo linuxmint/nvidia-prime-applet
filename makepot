@@ -1,0 +1,2 @@
+#!/bin/bash
+xgettext --language=Python --keyword=_ --keyword=N_ --output=nvidia-prime-applet.pot usr/lib/nvidia-prime-applet/nvidia-prime
