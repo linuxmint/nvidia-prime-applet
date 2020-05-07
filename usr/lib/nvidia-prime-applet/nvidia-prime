@@ -12,6 +12,10 @@ from gi.repository import Gtk, XApp
 # i18n
 gettext.install("nvidia-prime-applet", "/usr/share/locale")
 
+NVIDIA_MODE = _("NVIDIA (Performance Mode)")
+ON_DEMAND_MODE = _("NVIDIA On-Demand")
+INTEL_MODE = _("Intel (Power Saving Mode)")
+
 def get_output(commands):
     process = subprocess.Popen(commands, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
     out, err = process.communicate()
@@ -23,28 +27,39 @@ class Tray:
         self.icon = XApp.StatusIcon()
         self.icon.set_name("nvidia-prime")
 
-        menu = Gtk.Menu()
-
-        active_gpu = get_output(["prime-select", "query"])
-        if (active_gpu == "nvidia"):
-            self.icon.set_icon_name("prime-tray-nvidia-symbolic")
-            mode = _("Performance mode")
-        elif (active_gpu == "intel"):
-            self.icon.set_icon_name("prime-tray-intel-symbolic")
-            mode = _("Power saving mode")
-        elif (active_gpu == "on-demand"):
-            self.icon.set_icon_name("prime-tray-intel-symbolic")
-            mode = _("On demand mode")
-        else:
-            self.icon.set_icon_name("dialog-error-symbolic")
-            mode = _("Unknown mode")
-
+        # Find GPU name
         renderer = None
         try:
             renderer = subprocess.check_output("glxinfo | grep -i 'OpenGL renderer'", shell=True).decode("UTF-8").strip().split(": ")[1]
         except:
             pass
 
+        # Find active mode
+        nvidia = Gtk.MenuItem(label=_("Switch to: %s") % NVIDIA_MODE)
+        nvidia.connect("activate", self.switch, 'nvidia', NVIDIA_MODE)
+        ondemand = Gtk.MenuItem(label=_("Switch to: %s") % ON_DEMAND_MODE)
+        ondemand.connect("activate", self.switch, 'on-demand', ON_DEMAND_MODE)
+        intel = Gtk.MenuItem(label=_("Switch to: %s") % INTEL_MODE)
+        intel.connect("activate", self.switch, 'intel', INTEL_MODE)
+        active_gpu = get_output(["prime-select", "query"])
+        if (active_gpu == "nvidia"):
+            self.icon.set_icon_name("prime-tray-nvidia-symbolic")
+            mode = NVIDIA_MODE
+            nvidia.set_sensitive(False)
+        elif (active_gpu == "on-demand"):
+            self.icon.set_icon_name("prime-tray-intel-symbolic")
+            mode = ON_DEMAND_MODE
+            ondemand.set_sensitive(False)
+        elif (active_gpu == "intel"):
+            self.icon.set_icon_name("prime-tray-intel-symbolic")
+            mode = INTEL_MODE
+            intel.set_sensitive(False)
+        else:
+            self.icon.set_icon_name("dialog-error-symbolic")
+            mode = _("Unknown mode")
+
+        menu = Gtk.Menu()
+        
         if renderer is None:
             self.icon.set_tooltip_text(mode)
         else:
@@ -54,7 +69,12 @@ class Tray:
             menu.append(item)
             menu.append(Gtk.SeparatorMenuItem())
 
-        
+        menu.append(intel)
+        menu.append(nvidia)
+        menu.append(ondemand)
+
+        menu.append(Gtk.SeparatorMenuItem())
+
         item = Gtk.MenuItem(label=_("NVIDIA Settings"))
         item.connect("activate", self.run_nvidia_settings)
         menu.append(item)
@@ -74,6 +94,24 @@ class Tray:
 
     def run_nvidia_settings (self, arg=None):
         subprocess.Popen(["nvidia-settings", "-page", "PRIME Profiles"])
+
+
+    def dialog_closed(self, widget, event):
+        return Gtk.ResponseType.NO
+
+    def switch(self, widget, mode, mode_description):
+        dialog = Gtk.MessageDialog(parent=None, message_type=Gtk.MessageType.INFO, buttons=Gtk.ButtonsType.YES_NO, text=_("Are you sure you want to switch to %s?") % mode_description)
+        dialog.format_secondary_text(_('Changes will take effect after you log out and log back in.'))
+        dialog.set_deletable(False)
+        dialog.set_title("NVIDIA Optimus")
+        dialog.set_icon_name("prime-tray-nvidia")
+        dialog.set_skip_taskbar_hint(False)
+        dialog.set_skip_pager_hint(False)
+        dialog.connect("delete_event", self.dialog_closed)
+        response = dialog.run()
+        dialog.destroy()
+        if response == Gtk.ResponseType.YES:
+            subprocess.call(["pkexec", "prime-select", mode])
 
     def about(self, widget):
         about = Gtk.AboutDialog()
