@@ -29,6 +29,11 @@ class Tray:
         item.connect("activate", self.run_nvidia_settings)
         menu.append(item)
         menu.append(Gtk.SeparatorMenuItem())
+        
+        item = Gtk.MenuItem(label=_("About"))
+        item.connect("activate", self.about)
+        menu.append(item)
+
         item = Gtk.MenuItem(label=_("Quit"))
         item.connect("activate", self.terminate)
         menu.append(item)
@@ -54,6 +59,17 @@ class Tray:
 
     def run_nvidia_settings (self, arg=None):
         subprocess.Popen(["nvidia-settings", "-page", "PRIME Profiles"])
+
+    def about(self, widget):
+        about = Gtk.AboutDialog()
+        about.set_program_name("NVIDIA Optimus")
+        about.set_website("https://github.com/linuxmint/nvidia-prime-applet")
+        about.set_website_label("https://github.com/linuxmint/nvidia-prime-applet")
+        about.set_license_type(Gtk.License.GPL_3_0)
+        about.set_logo_icon_name('prime-tray-nvidia')
+
+        about.run()
+        about.destroy()
 
     def terminate(self, window = None, data = None):
         Gtk.main_quit()
