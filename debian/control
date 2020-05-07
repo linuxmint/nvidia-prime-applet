@@ -2,7 +2,7 @@ Source: nvidia-prime-applet
 Section: admin
 Priority: optional
 Maintainer: Clement Lefebvre <root@linuxmint.com>
-Build-Depends: debhelper (>= 9), python
+Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
 
 Package: nvidia-prime-applet
