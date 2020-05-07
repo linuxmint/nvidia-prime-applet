@@ -22,7 +22,6 @@ class Tray:
 
         self.icon = XApp.StatusIcon()
         self.icon.set_name("nvidia-prime")
-        self.icon.connect("activate", self.on_activate)
 
         menu = Gtk.Menu()
 
@@ -69,10 +68,9 @@ class Tray:
         item.connect("activate", self.terminate)
         menu.append(item)
         menu.show_all()
-        self.icon.set_secondary_menu(menu)
 
-    def on_activate(self, icon, button, time, data=None):
-        self.run_nvidia_settings();
+        self.icon.set_primary_menu(menu)
+        self.icon.set_secondary_menu(menu)
 
     def run_nvidia_settings (self, arg=None):
         subprocess.Popen(["nvidia-settings", "-page", "PRIME Profiles"])
