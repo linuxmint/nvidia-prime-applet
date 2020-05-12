@@ -1,3 +1,21 @@
+nvidia-prime-applet (1.2.0) ulyana; urgency=medium
+
+  * Fix on-demand icon
+  * Remove python build dependency
+  * Remove unused icons
+  * Remove obsolete applet
+  * Revert "Remove unused icons"
+  * Add about dialog
+  * Show GPU renderer in tooltip and menu
+  * Show menu on left-click
+  * Switch mode directly from the applet
+  * Make it more obvious what profile is active
+  * Add l10n infrastructure
+  * Add nvidia-optimus-offload-glx and nvidia-optimus-offload-vulkan
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 12 May 2020 11:20:15 +0100
+
 nvidia-prime-applet (1.0.9) ulyana; urgency=medium
 
   * Remove trailing spaces
