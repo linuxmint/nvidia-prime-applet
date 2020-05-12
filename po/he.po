@@ -1,0 +1,67 @@
+# Hebrew translation for linuxmint
+# Copyright (c) 2020 Rosetta Contributors and Canonical Ltd 2020
+# This file is distributed under the same license as the linuxmint package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: linuxmint\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2020-05-07 15:13+0100\n"
+"PO-Revision-Date: 2020-05-10 07:25+0000\n"
+"Last-Translator: Rony Alaluf <Unknown>\n"
+"Language-Team: Hebrew <he@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2020-05-11 11:04+0000\n"
+"X-Generator: Launchpad (build fbdff7602bd10fb883bf7e2ddcc7fd5a16f60398)\n"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:15
+msgid "NVIDIA (Performance Mode)"
+msgstr "NVIDIA (מצב ביצועים)"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:16
+msgid "NVIDIA On-Demand"
+msgstr "NVIDIA לפי דרישה"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:17
+msgid "Intel (Power Saving Mode)"
+msgstr "אינטל (מצב צריכת חשמל מופחתת)"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:38
+#: usr/lib/nvidia-prime-applet/nvidia-prime:40
+#: usr/lib/nvidia-prime-applet/nvidia-prime:42
+#, python-format
+msgid "Switch to: %s"
+msgstr "החלף אל: %s"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:56
+msgid "Unknown mode"
+msgstr "מצב לא ידוע"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:69
+#, python-format
+msgid "Active profile: %s"
+msgstr "פרופיל פעיל: %s"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:82
+msgid "NVIDIA Settings"
+msgstr "הגדרות NVIDIA"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:87
+msgid "About"
+msgstr "אודות"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:91
+msgid "Quit"
+msgstr "צא"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:107
+#, python-format
+msgid "Are you sure you want to switch to %s?"
+msgstr "הנך בטוח שאת/ה רוצה להחליף אל %s?"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:108
+msgid "Changes will take effect after you log out and log back in."
+msgstr "השינויים יכנסו לתוקף לאחר שתתנתק/י ותתחבר/י חזרה."
