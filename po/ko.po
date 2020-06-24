@@ -1,4 +1,4 @@
-# Occitan (post 1500) translation for linuxmint
+# Korean translation for linuxmint
 # Copyright (c) 2020 Rosetta Contributors and Canonical Ltd 2020
 # This file is distributed under the same license as the linuxmint package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-05-07 15:13+0100\n"
-"PO-Revision-Date: 2020-05-07 14:45+0000\n"
-"Last-Translator: Quentin PAGÈS <Unknown>\n"
-"Language-Team: Occitan (post 1500) <oc@li.org>\n"
+"PO-Revision-Date: 2020-05-15 04:35+0000\n"
+"Last-Translator: ChanUng Park <Unknown>\n"
+"Language-Team: Korean <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:15
 msgid "NVIDIA (Performance Mode)"
-msgstr ""
+msgstr "NVDIA (퍼포먼스 모드)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA On-Demand"
@@ -27,41 +27,41 @@ msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "Intel (Power Saving Mode)"
-msgstr "Intel (Mòde estalvi d’energia)"
+msgstr "인텔 (절전 모드)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:38
 #: usr/lib/nvidia-prime-applet/nvidia-prime:40
 #: usr/lib/nvidia-prime-applet/nvidia-prime:42
 #, python-format
 msgid "Switch to: %s"
-msgstr "Bascular cap a : %s"
+msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:56
 msgid "Unknown mode"
-msgstr "Mòde desconegut"
+msgstr "알 수 없는 모드"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:69
 #, python-format
 msgid "Active profile: %s"
-msgstr "Perfil actiu : %s"
+msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:82
 msgid "NVIDIA Settings"
-msgstr "Paramètres NVIDIA"
+msgstr "NVIDIA 설정"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:87
 msgid "About"
-msgstr "A prepaus"
+msgstr "정보"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:91
 msgid "Quit"
-msgstr "Quitar"
+msgstr "종료"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:107
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr "Volètz vertadièrament bascular cap a %s ?"
+msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:108
 msgid "Changes will take effect after you log out and log back in."
-msgstr ""
+msgstr "로그아웃 후 재로그인하면 변경사항이 적용됩니다."

@@ -1,4 +1,4 @@
-# Occitan (post 1500) translation for linuxmint
+# Hindi translation for linuxmint
 # Copyright (c) 2020 Rosetta Contributors and Canonical Ltd 2020
 # This file is distributed under the same license as the linuxmint package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-05-07 15:13+0100\n"
-"PO-Revision-Date: 2020-05-07 14:45+0000\n"
-"Last-Translator: Quentin PAGÈS <Unknown>\n"
-"Language-Team: Occitan (post 1500) <oc@li.org>\n"
+"PO-Revision-Date: 2020-05-12 16:24+0000\n"
+"Last-Translator: Panwar <Unknown>\n"
+"Language-Team: Hindi <hi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,49 +19,49 @@ msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:15
 msgid "NVIDIA (Performance Mode)"
-msgstr ""
+msgstr "NVIDIA (उच्च प्रदर्शन मोड)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA On-Demand"
-msgstr ""
+msgstr "NVIDIA गतिशील स्विचन"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "Intel (Power Saving Mode)"
-msgstr "Intel (Mòde estalvi d’energia)"
+msgstr "इंटेल (ऊर्जा बचत मोड)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:38
 #: usr/lib/nvidia-prime-applet/nvidia-prime:40
 #: usr/lib/nvidia-prime-applet/nvidia-prime:42
 #, python-format
 msgid "Switch to: %s"
-msgstr "Bascular cap a : %s"
+msgstr "इसमें स्विच करें : %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:56
 msgid "Unknown mode"
-msgstr "Mòde desconegut"
+msgstr "अज्ञात मोड"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:69
 #, python-format
 msgid "Active profile: %s"
-msgstr "Perfil actiu : %s"
+msgstr "सक्रिय प्रोफ़ाइल : %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:82
 msgid "NVIDIA Settings"
-msgstr "Paramètres NVIDIA"
+msgstr "NVIDIA सेटिंग्स"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:87
 msgid "About"
-msgstr "A prepaus"
+msgstr "के बारे में"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:91
 msgid "Quit"
-msgstr "Quitar"
+msgstr "बंद करें"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:107
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr "Volètz vertadièrament bascular cap a %s ?"
+msgstr "क्या आप %s में स्विच करना चाहते हैं ?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:108
 msgid "Changes will take effect after you log out and log back in."
-msgstr ""
+msgstr "सभी बदलाव लॉगआउट व पुनः लॉगिन करने के उपरांत लागू होंगे।"
