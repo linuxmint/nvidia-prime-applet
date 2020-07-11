@@ -17,6 +17,8 @@ NVIDIA_MODE = _("NVIDIA (Performance Mode)")
 ON_DEMAND_MODE = _("NVIDIA On-Demand")
 INTEL_MODE = _("Intel (Power Saving Mode)")
 
+MIN_ON_DEMAND_VERSION = "435.17"
+
 def get_output(commands):
     process = subprocess.Popen(commands, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
     out, err = process.communicate()
@@ -27,6 +29,8 @@ class Tray:
 
         self.icon = XApp.StatusIcon()
         self.icon.set_name("nvidia-prime")
+
+        hybrid_supported = self.should_show_hybrid()
 
         # Find GPU name
         renderer = None
@@ -39,15 +43,13 @@ class Tray:
         nvidia = Gtk.MenuItem(label=_("Switch to: %s") % NVIDIA_MODE)
         nvidia.connect("activate", self.switch, 'nvidia', NVIDIA_MODE)
 
-        if self.should_show_hybrid():
+        if hybrid_supported:
             ondemand = Gtk.MenuItem(label=_("Switch to: %s") % ON_DEMAND_MODE)
             ondemand.connect("activate", self.switch, 'on-demand', ON_DEMAND_MODE)
-        else:
-            ondemand = Gtk.MenuItem(label=_("%s unsupported by current driver") % ON_DEMAND_MODE)
-            ondemand.set_sensitive(False)
 
         intel = Gtk.MenuItem(label=_("Switch to: %s") % INTEL_MODE)
         intel.connect("activate", self.switch, 'intel', INTEL_MODE)
+
         active_gpu = get_output(["prime-select", "query"])
         if (active_gpu == "nvidia"):
             self.icon.set_icon_name("prime-tray-nvidia-symbolic")
@@ -63,7 +65,7 @@ class Tray:
             mode = _("Unknown mode")
 
         menu = Gtk.Menu()
-        
+
         if renderer is None:
             self.icon.set_tooltip_text(mode)
         else:
@@ -81,7 +83,7 @@ class Tray:
             menu.append(intel)
         if mode != NVIDIA_MODE:
             menu.append(nvidia)
-        if mode != ON_DEMAND_MODE:
+        if mode != ON_DEMAND_MODE and hybrid_supported:
             menu.append(ondemand)
 
         menu.append(Gtk.SeparatorMenuItem())
@@ -112,10 +114,10 @@ class Tray:
         try:
             for line in get_output(["dkms", "status"]).splitlines():
                 if "nvidia" in line:
-                    min_version = version.parse("435.17")
+                    min_version = version.parse(MIN_ON_DEMAND_VERSION)
 
                     current_version = version.parse(line.split(",")[1].strip())
-                    print("Required nvidia driver version: %s" % str(min_version))
+                    print("Required nvidia driver version for on-demand: %s" % str(min_version))
                     print("Detected nvidia driver version: %s" % str(current_version))
                     if current_version < min_version:
                         print("On-demand not available")
