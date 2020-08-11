@@ -1,3 +1,11 @@
+nvidia-prime-applet (1.2.2) ulyana; urgency=medium
+
+  [ Michael Webster ]
+  * Don't allow switching to on-demand mode if the driver is too old.
+  * nvidia-prime: Just hide the on-demand menu item if it's not available.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 11 Aug 2020 14:54:31 +0100
+
 nvidia-prime-applet (1.2.1) ulyana; urgency=medium
 
   * l10n: Update translations
