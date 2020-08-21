@@ -1,3 +1,10 @@
+nvidia-prime-applet (1.2.3) ulyana; urgency=medium
+
+  [ Michael Webster ]
+  * Add missing dependency in debian/control.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 21 Aug 2020 10:32:25 +0100
+
 nvidia-prime-applet (1.2.2) ulyana; urgency=medium
 
   [ Michael Webster ]
