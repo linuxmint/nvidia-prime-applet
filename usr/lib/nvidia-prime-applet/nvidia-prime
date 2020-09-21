@@ -163,10 +163,12 @@ if __name__ == "__main__":
 
     # If nvidia-prime isn't installed or isn't supported, exit cleanly
     if not (os.path.exists("/usr/bin/nvidia-settings") and os.path.exists("/usr/bin/prime-select")):
+        print("Aborting: Check that the nvidia-settings and nvidia-prime packages are installed.")
         sys.exit(0)
 
     output = get_output(["prime-supported"])
     if output != "yes":
+        print("Aborting: prime not supported - is this a prime laptop and do you have nvidia drivers installed?")
         sys.exit(0)
 
     Tray()
