@@ -1,3 +1,10 @@
+nvidia-prime-applet (1.2.4) ulyana; urgency=medium
+
+  [ Michael Webster ]
+  * Add a couple of debugging statements for when startup aborts.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Mon, 30 Nov 2020 11:15:41 +0000
+
 nvidia-prime-applet (1.2.3) ulyana; urgency=medium
 
   [ Michael Webster ]
