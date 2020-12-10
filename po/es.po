@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-05-07 15:13+0100\n"
-"PO-Revision-Date: 2020-05-07 21:16+0000\n"
-"Last-Translator: Isidro Pisa <isidro@utils.info>\n"
+"PO-Revision-Date: 2020-07-03 22:24+0000\n"
+"Last-Translator: Toni Estevez <toni.estevez@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-06-24 10:13+0000\n"
-"X-Generator: Launchpad (build 1cbd0aa39df153c901321817f9b57cf3f232b507)\n"
+"X-Launchpad-Export-Date: 2020-12-10 10:32+0000\n"
+"X-Generator: Launchpad (build 4853cb86c14c5a9e513816c8a61121c639b30835)\n"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:15
 msgid "NVIDIA (Performance Mode)"
-msgstr "NVIDIA (Modo de rendimiento)"
+msgstr "NVIDIA (modo de rendimiento)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA On-Demand"
@@ -64,4 +64,4 @@ msgstr "¿Seguro que quiere cambiar a %s?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:108
 msgid "Changes will take effect after you log out and log back in."
-msgstr "Los cambios tendrán efecto después de reiniciar sesión."
+msgstr "Los cambios tendrán efecto después de reiniciar la sesión."
