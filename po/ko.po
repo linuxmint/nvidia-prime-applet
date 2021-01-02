@@ -8,22 +8,22 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2020-05-07 15:13+0100\n"
-"PO-Revision-Date: 2020-05-15 04:35+0000\n"
-"Last-Translator: ChanUng Park <Unknown>\n"
+"PO-Revision-Date: 2020-12-15 08:45+0000\n"
+"Last-Translator: Changmin Jang <Unknown>\n"
 "Language-Team: Korean <ko@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2020-12-10 10:32+0000\n"
-"X-Generator: Launchpad (build 4853cb86c14c5a9e513816c8a61121c639b30835)\n"
+"X-Launchpad-Export-Date: 2021-01-02 14:19+0000\n"
+"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:15
 msgid "NVIDIA (Performance Mode)"
-msgstr "NVDIA (퍼포먼스 모드)"
+msgstr "NVIDIA (성능 모드)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA On-Demand"
-msgstr ""
+msgstr "NVIDIA On-Demand"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "Intel (Power Saving Mode)"
@@ -34,7 +34,7 @@ msgstr "인텔 (절전 모드)"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:42
 #, python-format
 msgid "Switch to: %s"
-msgstr ""
+msgstr "다음으로 전환: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:56
 msgid "Unknown mode"
@@ -43,7 +43,7 @@ msgstr "알 수 없는 모드"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:69
 #, python-format
 msgid "Active profile: %s"
-msgstr ""
+msgstr "활성 프로파일: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:82
 msgid "NVIDIA Settings"
@@ -60,7 +60,7 @@ msgstr "종료"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:107
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr ""
+msgstr "%s로 전환하시겠습니까?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:108
 msgid "Changes will take effect after you log out and log back in."
