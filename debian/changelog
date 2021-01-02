@@ -1,3 +1,9 @@
+nvidia-prime-applet (1.2.6) ulyssa; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sat, 02 Jan 2021 17:02:45 +0000
+
 nvidia-prime-applet (1.2.5) ulyssa; urgency=medium
 
   * l10n: Update translations
