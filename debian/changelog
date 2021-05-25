@@ -1,3 +1,18 @@
+nvidia-prime-applet (1.2.7) uma; urgency=medium
+
+  [ Michael Webster ]
+  * Add ui support for AMD integrated graphics.
+
+  [ Mahdi Abdelkhalek ]
+  * Permit arguments to have backslash escaped spaces
+  * Permit arguments to have backslash escaped spaces
+
+  [ Clement Lefebvre ]
+  * Detection: Switch from prime-supported to /var/lib/ubuntu-drivers-common/last_gfx_boot
+  * l10n: Update POT
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 25 May 2021 13:54:43 +0100
+
 nvidia-prime-applet (1.2.6) ulyssa; urgency=medium
 
   * l10n: Update translations
