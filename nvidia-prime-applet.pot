@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-05-07 15:13+0100\n"
+"POT-Creation-Date: 2021-05-25 13:42+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,51 +17,55 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:15
+#: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:16
+#: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA On-Demand"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:17
+#: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "Intel (Power Saving Mode)"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:38
-#: usr/lib/nvidia-prime-applet/nvidia-prime:40
-#: usr/lib/nvidia-prime-applet/nvidia-prime:42
+#: usr/lib/nvidia-prime-applet/nvidia-prime:19
+msgid "AMD (Power Saving Mode)"
+msgstr ""
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:55
+#: usr/lib/nvidia-prime-applet/nvidia-prime:59
+#: usr/lib/nvidia-prime-applet/nvidia-prime:62
 #, python-format
 msgid "Switch to: %s"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:56
+#: usr/lib/nvidia-prime-applet/nvidia-prime:77
 msgid "Unknown mode"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:69
+#: usr/lib/nvidia-prime-applet/nvidia-prime:90
 #, python-format
 msgid "Active profile: %s"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:82
+#: usr/lib/nvidia-prime-applet/nvidia-prime:103
 msgid "NVIDIA Settings"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:87
+#: usr/lib/nvidia-prime-applet/nvidia-prime:108
 msgid "About"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:91
+#: usr/lib/nvidia-prime-applet/nvidia-prime:112
 msgid "Quit"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:107
+#: usr/lib/nvidia-prime-applet/nvidia-prime:147
 #, python-format
 msgid "Are you sure you want to switch to %s?"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:108
+#: usr/lib/nvidia-prime-applet/nvidia-prime:148
 msgid "Changes will take effect after you log out and log back in."
 msgstr ""
