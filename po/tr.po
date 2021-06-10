@@ -7,62 +7,66 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-05-07 15:13+0100\n"
-"PO-Revision-Date: 2020-05-07 23:40+0000\n"
+"POT-Creation-Date: 2021-05-25 13:42+0100\n"
+"PO-Revision-Date: 2021-05-25 20:55+0000\n"
 "Last-Translator: Butterfly <Unknown>\n"
 "Language-Team: Turkish <tr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-01-02 14:19+0000\n"
-"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
+"X-Launchpad-Export-Date: 2021-06-09 14:22+0000\n"
+"X-Generator: Launchpad (build b45bdbe3a00b6b668fa7f2069bd545c35c41f7f4)\n"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:15
+#: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
 msgstr "NVIDIA (Performans Kipi)"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:16
+#: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA On-Demand"
 msgstr "NVIDIA Hazırda-Kal"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:17
+#: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "Intel (Power Saving Mode)"
 msgstr "Intel (Güç Tasarrufu Kipi)"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:38
-#: usr/lib/nvidia-prime-applet/nvidia-prime:40
-#: usr/lib/nvidia-prime-applet/nvidia-prime:42
+#: usr/lib/nvidia-prime-applet/nvidia-prime:19
+msgid "AMD (Power Saving Mode)"
+msgstr "AMD (Güç Tasarrufu Kipi)"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:55
+#: usr/lib/nvidia-prime-applet/nvidia-prime:59
+#: usr/lib/nvidia-prime-applet/nvidia-prime:62
 #, python-format
 msgid "Switch to: %s"
 msgstr "Geçiş yap: %s"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:56
+#: usr/lib/nvidia-prime-applet/nvidia-prime:77
 msgid "Unknown mode"
 msgstr "Bilinmeyen kip"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:69
+#: usr/lib/nvidia-prime-applet/nvidia-prime:90
 #, python-format
 msgid "Active profile: %s"
 msgstr "Etkin profil: %s"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:82
+#: usr/lib/nvidia-prime-applet/nvidia-prime:103
 msgid "NVIDIA Settings"
 msgstr "NVIDIA Ayarları"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:87
+#: usr/lib/nvidia-prime-applet/nvidia-prime:108
 msgid "About"
 msgstr "Hakkında"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:91
+#: usr/lib/nvidia-prime-applet/nvidia-prime:112
 msgid "Quit"
 msgstr "Çıkış"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:107
+#: usr/lib/nvidia-prime-applet/nvidia-prime:147
 #, python-format
 msgid "Are you sure you want to switch to %s?"
 msgstr "%s profiline geçiş yapmayı istediğinize emin misiniz?"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:108
+#: usr/lib/nvidia-prime-applet/nvidia-prime:148
 msgid "Changes will take effect after you log out and log back in."
 msgstr ""
 "Değişiklikler; oturumu kapatıp, yeniden oturum açtıktan sonra geçerli "

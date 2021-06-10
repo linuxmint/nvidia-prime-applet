@@ -7,61 +7,65 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2020-05-07 15:13+0100\n"
-"PO-Revision-Date: 2020-05-10 07:25+0000\n"
-"Last-Translator: Rony Alaluf <Unknown>\n"
+"POT-Creation-Date: 2021-05-25 13:42+0100\n"
+"PO-Revision-Date: 2021-05-26 05:14+0000\n"
+"Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-01-02 14:19+0000\n"
-"X-Generator: Launchpad (build 34b3ffd45c9543b7f7aa5aa313925241e9e7ca3f)\n"
+"X-Launchpad-Export-Date: 2021-06-09 14:22+0000\n"
+"X-Generator: Launchpad (build b45bdbe3a00b6b668fa7f2069bd545c35c41f7f4)\n"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:15
+#: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
 msgstr "NVIDIA (מצב ביצועים)"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:16
+#: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA On-Demand"
 msgstr "NVIDIA לפי דרישה"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:17
+#: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "Intel (Power Saving Mode)"
-msgstr "אינטל (מצב צריכת חשמל מופחתת)"
+msgstr "אינטל (מצב חיסכון בצריכת חשמל)"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:38
-#: usr/lib/nvidia-prime-applet/nvidia-prime:40
-#: usr/lib/nvidia-prime-applet/nvidia-prime:42
+#: usr/lib/nvidia-prime-applet/nvidia-prime:19
+msgid "AMD (Power Saving Mode)"
+msgstr "AMD (מצב חיסכון בצריכת חשמל)"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:55
+#: usr/lib/nvidia-prime-applet/nvidia-prime:59
+#: usr/lib/nvidia-prime-applet/nvidia-prime:62
 #, python-format
 msgid "Switch to: %s"
-msgstr "החלף אל: %s"
+msgstr "החלפה ל: %s"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:56
+#: usr/lib/nvidia-prime-applet/nvidia-prime:77
 msgid "Unknown mode"
 msgstr "מצב לא ידוע"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:69
+#: usr/lib/nvidia-prime-applet/nvidia-prime:90
 #, python-format
 msgid "Active profile: %s"
 msgstr "פרופיל פעיל: %s"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:82
+#: usr/lib/nvidia-prime-applet/nvidia-prime:103
 msgid "NVIDIA Settings"
 msgstr "הגדרות NVIDIA"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:87
+#: usr/lib/nvidia-prime-applet/nvidia-prime:108
 msgid "About"
 msgstr "אודות"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:91
+#: usr/lib/nvidia-prime-applet/nvidia-prime:112
 msgid "Quit"
-msgstr "צא"
+msgstr "יציאה"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:107
+#: usr/lib/nvidia-prime-applet/nvidia-prime:147
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr "הנך בטוח שאת/ה רוצה להחליף אל %s?"
+msgstr "האם לעבור ל- %s?"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:108
+#: usr/lib/nvidia-prime-applet/nvidia-prime:148
 msgid "Changes will take effect after you log out and log back in."
-msgstr "השינויים יכנסו לתוקף לאחר שתתנתק/י ותתחבר/י חזרה."
+msgstr "השינויים יכנסו לתוקף לאחר התנתקות והתחברות חוזרת."

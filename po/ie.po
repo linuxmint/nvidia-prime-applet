@@ -1,16 +1,16 @@
-# Russian translation for linuxmint
-# Copyright (c) 2020 Rosetta Contributors and Canonical Ltd 2020
+# Interlingue translation for linuxmint
+# Copyright (c) 2021 Rosetta Contributors and Canonical Ltd 2021
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2021-05-25 13:42+0100\n"
-"PO-Revision-Date: 2020-06-17 11:46+0000\n"
-"Last-Translator: Igor <sprsss1@gmail.com>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"PO-Revision-Date: 2021-01-04 21:19+0000\n"
+"Last-Translator: Silvara <Unknown>\n"
+"Language-Team: Interlingue <ie@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,15 +19,15 @@ msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
-msgstr "NVIDIA (Режим производительности)"
+msgstr "NVIDIA (Mode de executivitá)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA On-Demand"
-msgstr "NVIDIA  По требованию"
+msgstr "NVIDIA On-Demand"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "Intel (Power Saving Mode)"
-msgstr "Intel (Режим энергосбережения)"
+msgstr "Intel (Mode de conservation de energie)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "AMD (Power Saving Mode)"
@@ -38,34 +38,34 @@ msgstr ""
 #: usr/lib/nvidia-prime-applet/nvidia-prime:62
 #, python-format
 msgid "Switch to: %s"
-msgstr "Переключить в: %s"
+msgstr "Alterar a: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:77
 msgid "Unknown mode"
-msgstr "Неизвестный режим"
+msgstr "Ínconosset mode"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:90
 #, python-format
 msgid "Active profile: %s"
-msgstr "Активный профиль: %s"
+msgstr "Activ profil: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:103
 msgid "NVIDIA Settings"
-msgstr "Настройки NVIDIA"
+msgstr "Paramentres NVIDIA"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:108
 msgid "About"
-msgstr "О программе"
+msgstr "Pri"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:112
 msgid "Quit"
-msgstr "Выйти"
+msgstr "Surtir"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:147
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr "Вы хотите переключить в %s?"
+msgstr "Esque vu vole alterar a %s?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:148
 msgid "Changes will take effect after you log out and log back in."
-msgstr "Для принятия изменений необходимо перезапустить сеанс."
+msgstr "Li modificationes va esser applicat in vor sequent session."
