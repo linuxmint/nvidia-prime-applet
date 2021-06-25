@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2021-05-25 13:42+0100\n"
-"PO-Revision-Date: 2021-05-28 19:35+0000\n"
-"Last-Translator: Artur Rabelo <Unknown>\n"
+"PO-Revision-Date: 2021-06-23 18:25+0000\n"
+"Last-Translator: Wellington Oliveira dos Santos <welblade@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <pt_BR@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-06-09 14:22+0000\n"
-"X-Generator: Launchpad (build b45bdbe3a00b6b668fa7f2069bd545c35c41f7f4)\n"
+"X-Launchpad-Export-Date: 2021-06-25 10:43+0000\n"
+"X-Generator: Launchpad (build 40cc6dba4163ba9ca785b26ad91f43c87d70ba4d)\n"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
-msgstr "NVIDIA (modo de desempenho)"
+msgstr "NVIDIA (Modo de Desempenho)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA On-Demand"
@@ -27,11 +27,11 @@ msgstr "NVIDIA Sob Demanda"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "Intel (Power Saving Mode)"
-msgstr "Intel (modo de economia de energia)"
+msgstr "Intel (Modo de Economia de Energia)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "AMD (Power Saving Mode)"
-msgstr "AMD (Modo de economia de energia)"
+msgstr "AMD (Modo de Economia de Energia)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:55
 #: usr/lib/nvidia-prime-applet/nvidia-prime:59
@@ -64,7 +64,7 @@ msgstr "Sair"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:147
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr "Tem certeza de que deseja mudar para %s?"
+msgstr "Tem certeza de que deseja trocar para %s?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:148
 msgid "Changes will take effect after you log out and log back in."
