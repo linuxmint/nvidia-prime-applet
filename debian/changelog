@@ -1,3 +1,9 @@
+nvidia-prime-applet (1.2.9) uma; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 25 Jun 2021 14:52:17 +0100
+
 nvidia-prime-applet (1.2.8) uma; urgency=medium
 
   * l10n: Update translations
