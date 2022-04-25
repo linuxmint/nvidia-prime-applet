@@ -182,12 +182,13 @@ class Tray:
         dialog.destroy()
         if response == Gtk.ResponseType.YES:
             self.switched_to = mode_description
-            subprocess.call(["pkexec", "prime-select", mode])
-            if is_cancel:
-                self.switched_to = None
-                self.mode_at_start = None
-                self.mode_name_at_start = None # Gets re-found during self.build_menu()
-            self.build_menu()
+            ex_code = subprocess.call(["pkexec", "prime-select", mode])
+            if ex_code == 0: # Don't change anything if we cancel
+                if is_cancel:
+                    self.switched_to = None
+                    self.mode_at_start = None
+                    self.mode_name_at_start = None # Reset these since we're back to "square one" in terms of canceling
+                self.build_menu()
 
     def about(self, widget):
         about = Gtk.AboutDialog()
