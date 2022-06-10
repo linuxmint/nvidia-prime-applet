@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-25 13:42+0100\n"
+"POT-Creation-Date: 2022-06-10 11:55+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,39 +33,53 @@ msgstr ""
 msgid "AMD (Power Saving Mode)"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:55
-#: usr/lib/nvidia-prime-applet/nvidia-prime:59
-#: usr/lib/nvidia-prime-applet/nvidia-prime:62
+#: usr/lib/nvidia-prime-applet/nvidia-prime:61
+#: usr/lib/nvidia-prime-applet/nvidia-prime:65
+#: usr/lib/nvidia-prime-applet/nvidia-prime:68
 #, python-format
 msgid "Switch to: %s"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:77
+#: usr/lib/nvidia-prime-applet/nvidia-prime:87
 msgid "Unknown mode"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:90
+#: usr/lib/nvidia-prime-applet/nvidia-prime:102
 #, python-format
 msgid "Active profile: %s"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:103
+#: usr/lib/nvidia-prime-applet/nvidia-prime:114
+#, python-format
+msgid "Log out to switch to: %s"
+msgstr ""
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:117
+msgid "Cancel switch"
+msgstr ""
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:124
 msgid "NVIDIA Settings"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:108
+#: usr/lib/nvidia-prime-applet/nvidia-prime:129
 msgid "About"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:112
+#: usr/lib/nvidia-prime-applet/nvidia-prime:133
 msgid "Quit"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:147
+#: usr/lib/nvidia-prime-applet/nvidia-prime:169
+#, python-format
+msgid "Are you sure you want to cancel the switch and return to %s?"
+msgstr ""
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format
 msgid "Are you sure you want to switch to %s?"
 msgstr ""
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:148
+#: usr/lib/nvidia-prime-applet/nvidia-prime:174
 msgid "Changes will take effect after you log out and log back in."
 msgstr ""

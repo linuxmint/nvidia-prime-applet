@@ -111,10 +111,10 @@ class Tray:
             if mode != ON_DEMAND_MODE and hybrid_supported:
                 menu.append(ondemand)
         else:
-            confirm_item = Gtk.MenuItem(label=("Log out to switch to: %s") % self.switched_to)
+            confirm_item = Gtk.MenuItem(label=_("Log out to switch to: %s") % self.switched_to)
             confirm_item.set_sensitive(False)
             menu.append(confirm_item)
-            cancel_item = Gtk.MenuItem(label=("Cancel Switch"))
+            cancel_item = Gtk.MenuItem(label=_("Cancel switch"))
             cancel_item.connect("activate", self.switch, self.mode_at_start, self.mode_name_at_start, True)
             menu.append(cancel_item)
 
@@ -166,9 +166,9 @@ class Tray:
 
     def switch(self, widget, mode, mode_description, is_cancel=False):
         if is_cancel:
-            message = ("Are you sure you want to cancel the switch and return to %s?") % mode_description
+            message = _("Are you sure you want to cancel the switch and return to %s?") % mode_description
         else:
-            message = ("Are you sure you want to switch to %s?") % mode_description
+            message = _("Are you sure you want to switch to %s?") % mode_description
         dialog = Gtk.MessageDialog(parent=None, message_type=Gtk.MessageType.INFO, buttons=Gtk.ButtonsType.YES_NO, text=message)
         if not is_cancel:
             dialog.format_secondary_text(_('Changes will take effect after you log out and log back in.'))
