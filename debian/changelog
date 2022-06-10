@@ -1,3 +1,13 @@
+nvidia-prime-applet (1.3.2) vanessa; urgency=medium
+
+  [ hammy3502 ]
+  * Applet Menu Reflects a Queued Switch before Logging Out (#14)
+
+  [ Clement Lefebvre ]
+  * l10n: Update POT
+
+ -- Clement Lefebvre <root@linuxmint.com>  Fri, 10 Jun 2022 11:58:05 +0200
+
 nvidia-prime-applet (1.3.1) una; urgency=medium
 
   * l10n: Update translations
