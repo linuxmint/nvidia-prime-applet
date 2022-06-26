@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2021-05-25 13:42+0100\n"
-"PO-Revision-Date: 2021-07-13 19:20+0000\n"
+"POT-Creation-Date: 2022-06-10 11:55+0200\n"
+"PO-Revision-Date: 2022-06-15 08:26+0000\n"
 "Last-Translator: Vasilis Kosmidis <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-12-31 12:26+0000\n"
-"X-Generator: Launchpad (build adb364d6a74a28e7b95d51cd30446ec16160de6c)\n"
+"X-Launchpad-Export-Date: 2022-06-26 11:30+0000\n"
+"X-Generator: Launchpad (build 51a2e4fa2e9b8e45f00904ad7f53546f45ac48a5)\n"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
@@ -33,39 +33,54 @@ msgstr "Intel (Λειτουργία εξοικονόμησης ενέργεια�
 msgid "AMD (Power Saving Mode)"
 msgstr "AMD (Κατάσταση Εξοικονόμησης Ενέργειας)"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:55
-#: usr/lib/nvidia-prime-applet/nvidia-prime:59
-#: usr/lib/nvidia-prime-applet/nvidia-prime:62
+#: usr/lib/nvidia-prime-applet/nvidia-prime:61
+#: usr/lib/nvidia-prime-applet/nvidia-prime:65
+#: usr/lib/nvidia-prime-applet/nvidia-prime:68
 #, python-format
 msgid "Switch to: %s"
 msgstr "Εναλλαγή σε: %s"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:77
+#: usr/lib/nvidia-prime-applet/nvidia-prime:87
 msgid "Unknown mode"
 msgstr "Άγνωστη λειτουργία"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:90
+#: usr/lib/nvidia-prime-applet/nvidia-prime:102
 #, python-format
 msgid "Active profile: %s"
 msgstr "Ενεργό προφίλ: %s"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:103
+#: usr/lib/nvidia-prime-applet/nvidia-prime:114
+#, python-format
+msgid "Log out to switch to: %s"
+msgstr "Αποσύνδεση για εναλλαγή σε: %s"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:117
+msgid "Cancel switch"
+msgstr "Ακύρωση εναλλαγής"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:124
 msgid "NVIDIA Settings"
 msgstr "Ρυθμίσεις NVIDIA"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:108
+#: usr/lib/nvidia-prime-applet/nvidia-prime:129
 msgid "About"
 msgstr "Σχετικά"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:112
+#: usr/lib/nvidia-prime-applet/nvidia-prime:133
 msgid "Quit"
 msgstr "Έξοδος"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:147
+#: usr/lib/nvidia-prime-applet/nvidia-prime:169
+#, python-format
+msgid "Are you sure you want to cancel the switch and return to %s?"
+msgstr ""
+"Είστε βέβαιοι ότι θέλετε να ακυρώσετε την εναλλαγή και να επιστρέψετε στο %s;"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format
 msgid "Are you sure you want to switch to %s?"
 msgstr "Είστε σίγουροι ότι θέλετε να κάνετε εναλλαγή σε %s;"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:148
+#: usr/lib/nvidia-prime-applet/nvidia-prime:174
 msgid "Changes will take effect after you log out and log back in."
 msgstr "Οι αλλαγές θα εφαρμοστούν μετά από έξοδο και επανσύνδεση"

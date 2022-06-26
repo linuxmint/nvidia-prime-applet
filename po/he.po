@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2021-05-25 13:42+0100\n"
-"PO-Revision-Date: 2021-05-26 05:14+0000\n"
-"Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
+"POT-Creation-Date: 2022-06-10 11:55+0200\n"
+"PO-Revision-Date: 2022-06-13 16:54+0000\n"
+"Last-Translator: Omer I.S. <Unknown>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2021-12-31 12:26+0000\n"
-"X-Generator: Launchpad (build adb364d6a74a28e7b95d51cd30446ec16160de6c)\n"
+"X-Launchpad-Export-Date: 2022-06-26 11:30+0000\n"
+"X-Generator: Launchpad (build 51a2e4fa2e9b8e45f00904ad7f53546f45ac48a5)\n"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
@@ -27,45 +27,59 @@ msgstr "NVIDIA לפי דרישה"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "Intel (Power Saving Mode)"
-msgstr "אינטל (מצב חיסכון בצריכת חשמל)"
+msgstr "אינטל (מצב חיסכון בחשמל)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "AMD (Power Saving Mode)"
-msgstr "AMD (מצב חיסכון בצריכת חשמל)"
+msgstr "AMD (מצב חיסכון בחשמל)"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:55
-#: usr/lib/nvidia-prime-applet/nvidia-prime:59
-#: usr/lib/nvidia-prime-applet/nvidia-prime:62
+#: usr/lib/nvidia-prime-applet/nvidia-prime:61
+#: usr/lib/nvidia-prime-applet/nvidia-prime:65
+#: usr/lib/nvidia-prime-applet/nvidia-prime:68
 #, python-format
 msgid "Switch to: %s"
-msgstr "החלפה ל: %s"
+msgstr "מעבר למצב: %s"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:77
+#: usr/lib/nvidia-prime-applet/nvidia-prime:87
 msgid "Unknown mode"
 msgstr "מצב לא ידוע"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:90
+#: usr/lib/nvidia-prime-applet/nvidia-prime:102
 #, python-format
 msgid "Active profile: %s"
 msgstr "פרופיל פעיל: %s"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:103
+#: usr/lib/nvidia-prime-applet/nvidia-prime:114
+#, python-format
+msgid "Log out to switch to: %s"
+msgstr "התנתקות ומעבר למצב: %s"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:117
+msgid "Cancel switch"
+msgstr "ביטול המעבר"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:124
 msgid "NVIDIA Settings"
 msgstr "הגדרות NVIDIA"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:108
+#: usr/lib/nvidia-prime-applet/nvidia-prime:129
 msgid "About"
-msgstr "אודות"
+msgstr "על אודות"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:112
+#: usr/lib/nvidia-prime-applet/nvidia-prime:133
 msgid "Quit"
 msgstr "יציאה"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:147
+#: usr/lib/nvidia-prime-applet/nvidia-prime:169
+#, python-format
+msgid "Are you sure you want to cancel the switch and return to %s?"
+msgstr "האם לבטל את המעבר ולחזור למצב %s?"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr "האם לעבור ל- %s?"
+msgstr "לעבור למצב %s?"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:148
+#: usr/lib/nvidia-prime-applet/nvidia-prime:174
 msgid "Changes will take effect after you log out and log back in."
-msgstr "השינויים יכנסו לתוקף לאחר התנתקות והתחברות חוזרת."
+msgstr "השינויים ייכנסו לתוקף לאחר יציאה וכניסה מחדש."
