@@ -4,6 +4,7 @@ import gi
 import os
 import subprocess
 import sys
+import re
 from packaging import version
 
 gi.require_version('Gtk', '3.0')
@@ -142,14 +143,22 @@ class Tray:
         subprocess.Popen(["nvidia-settings", "-page", "PRIME Profiles"])
 
     def should_show_hybrid(self):
-        # > dkms status
-        # nvidia, 440.100, 5.4.0-40-generic, x86_64: installed
+
         try:
             for line in get_output(["dkms", "status"]).splitlines():
                 if "nvidia" in line:
                     min_version = version.parse(MIN_ON_DEMAND_VERSION)
 
-                    current_version = version.parse(line.split(",")[1].strip())
+                    # https://github.com/dell/dkms/commit/f83b758b6fb8ca67b1ab65df9e3d2a1e994eb483
+                    if line.startswith("nvidia,"):
+                        # Mint 20 (dkms 2.8.1):
+                        # nvidia, 515.48.07, 5.15.0-33-generic, x86_64: installed
+                        current_version = re.match(r"nvidia,[\W]*([\d.]+),.*", line).group(1)
+                    else:
+                        # Mint 21 (dkms 2.8.7):
+                        # nvidia/470.129.06, 5.15.0-37-generic, x86_64: installed
+                        current_version = re.match(r"nvidia/([\d.]+),.*", line).group(1) # Mint 21 (dkms 2.8.7)
+
                     print("Required nvidia driver version for on-demand: %s" % str(min_version))
                     print("Detected nvidia driver version: %s" % str(current_version))
                     if current_version < min_version:
