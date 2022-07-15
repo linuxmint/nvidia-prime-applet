@@ -1,7 +1,9 @@
 [Desktop Entry]
 
 Name=Support for NVIDIA Prime
+Name[hr]=Podrška za NVIDIA Prime
 Comment=Shows a tray icon when a compatible NVIDIA Optimus graphics card is detected
+Comment[hr]=Prikazuje ikonu u traci sustava kada je kompatibilna NVIDIA Optimus grafička kartica otkrivena
 Exec=/usr/lib/nvidia-prime-applet/nvidia-prime
 Icon=prime-tray-nvidia
 Terminal=false
