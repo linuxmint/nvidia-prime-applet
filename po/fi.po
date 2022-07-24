@@ -8,30 +8,30 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2022-06-12 17:44+0000\n"
+"PO-Revision-Date: 2022-07-19 08:21+0000\n"
 "Last-Translator: Kimmo Kujansuu <Unknown>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-06-26 11:30+0000\n"
-"X-Generator: Launchpad (build 51a2e4fa2e9b8e45f00904ad7f53546f45ac48a5)\n"
+"X-Launchpad-Export-Date: 2022-07-24 09:43+0000\n"
+"X-Generator: Launchpad (build 025a39fd866a641b6ae33074cda0d02a2c712d38)\n"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
-msgstr "NVIDIA (suorituskykytila)"
+msgstr "NVIDIA (suorituskyky)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA On-Demand"
-msgstr "NVIDIA käyttöön tarvittaessa"
+msgstr "NVIDIA tarvittaessa"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "Intel (Power Saving Mode)"
-msgstr "Intel (virransäästötila)"
+msgstr "Intel (virransäästö)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "AMD (Power Saving Mode)"
-msgstr "AMD (virransäästötila)"
+msgstr "AMD (virransäästö)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:61
 #: usr/lib/nvidia-prime-applet/nvidia-prime:65
@@ -60,7 +60,7 @@ msgstr "Peruuta vaihto"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:124
 msgid "NVIDIA Settings"
-msgstr "NVIDIA asetukset"
+msgstr "Asetukset NVIDIA"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:129
 msgid "About"
@@ -73,7 +73,7 @@ msgstr "Lopeta"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:169
 #, python-format
 msgid "Are you sure you want to cancel the switch and return to %s?"
-msgstr "Haluatko varmasti peruuttaa vaihdon ja palauttaa %s?"
+msgstr "Haluatko peruuttaa vaihdon ja palauttaa %s?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format
@@ -83,5 +83,4 @@ msgstr "Haluatko varmasti vaihtaa %s?"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:174
 msgid "Changes will take effect after you log out and log back in."
 msgstr ""
-"Muutokset tulevat voimaan ulos kirjautumisen ja takaisin kirjautumisen "
-"jälkeen."
+"Muutokset astuvat voimaan, kun kirjaudut ulos ja kirjaudut takaisin sisään."
