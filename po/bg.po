@@ -1,16 +1,16 @@
-# Kannada translation for linuxmint
-# Copyright (c) 2020 Rosetta Contributors and Canonical Ltd 2020
+# Bulgarian translation for linuxmint
+# Copyright (c) 2022 Rosetta Contributors and Canonical Ltd 2022
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2020-09-08 07:12+0000\n"
-"Last-Translator: Sai Vinoba <Unknown>\n"
-"Language-Team: Kannada <kn@li.org>\n"
+"PO-Revision-Date: 2022-09-20 21:22+0000\n"
+"Last-Translator: Nikolay Trifonov <trifonov88@gmail.com>\n"
+"Language-Team: Bulgarian <bg@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,67 +19,68 @@ msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
-msgstr "ಎನ್ವಿಡಿಯಾ (ಕಾರ್ಯಕ್ಷಮತೆ ರೀತಿ)"
+msgstr "NVIDIA (Режим на производителност)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA On-Demand"
-msgstr "ಎನ್ವಿಡಿಯಾ ಬೇಡಿಕೆಯಂತೆ"
+msgstr "NVIDIA Адаптивен режим"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "Intel (Power Saving Mode)"
-msgstr "ಇಂಟೆಲ್ (ವಿದ್ಯುತ್ ಉಳಿತಾಯ ರೀತಿ)"
+msgstr "Intel (Икономичен режим)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "AMD (Power Saving Mode)"
-msgstr ""
+msgstr "AMD (Икономичен режим)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:61
 #: usr/lib/nvidia-prime-applet/nvidia-prime:65
 #: usr/lib/nvidia-prime-applet/nvidia-prime:68
 #, python-format
 msgid "Switch to: %s"
-msgstr "ಇದಕ್ಕೆ ಬದಲಾಯಿಸು: %s"
+msgstr "Превключване към: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:87
 msgid "Unknown mode"
-msgstr "ಅಜ್ಞಾತ ರೀತಿ"
+msgstr "Неизвестен режим"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:102
 #, python-format
 msgid "Active profile: %s"
-msgstr "ಸಕ್ರಿಯ ವ್ಯಕ್ತಿಚಿತ್ರ:  %s"
+msgstr "Активен профил: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:114
 #, python-format
 msgid "Log out to switch to: %s"
-msgstr ""
+msgstr "Излез и превключи към: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:117
 msgid "Cancel switch"
-msgstr ""
+msgstr "Отказване на превключването"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:124
 msgid "NVIDIA Settings"
-msgstr "ಎನ್ವಿಡಿಯಾ ಸಂಯೋಜನೆಗಳು"
+msgstr "Настройки на NVIDIA"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:129
 msgid "About"
-msgstr "ಕುರಿತು"
+msgstr "Относно"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:133
 msgid "Quit"
-msgstr "ತ್ಯಜಿಸು"
+msgstr "Изход"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:169
 #, python-format
 msgid "Are you sure you want to cancel the switch and return to %s?"
 msgstr ""
+"Сигурни ли сте че искате да откажете превключването и да се върнете към %s?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr "ನೀವು %s ಗೆ ಬದಲಾಯಿಸಲು ಬಯಸುವಿರಾ?"
+msgstr "Сигурни ли сте че искате да превключите към %s?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:174
 msgid "Changes will take effect after you log out and log back in."
-msgstr "ಬದಲಾವಣೆಗಳು ನೀವು ನಿರ್ಗಮಿಸಿ ಮತ್ತೆ ಪ್ರವೇಶಿಸಿದ ನಂತರ ಪರಿಣಾಮ ಬೀರುತ್ತವೆ."
+msgstr "Промените ще бъдат приложени след излизане и повторно влизане."

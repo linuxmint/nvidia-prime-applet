@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2021-06-30 13:56+0000\n"
-"Last-Translator: Francis Lapointe <Unknown>\n"
+"PO-Revision-Date: 2022-08-09 14:31+0000\n"
+"Last-Translator: guwrt <guwrt77@gmail.com>\n"
 "Language-Team: French (Canada) <fr_CA@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2022-07-24 09:43+0000\n"
-"X-Generator: Launchpad (build 025a39fd866a641b6ae33074cda0d02a2c712d38)\n"
+"X-Launchpad-Export-Date: 2022-12-02 14:02+0000\n"
+"X-Generator: Launchpad (build 51cef3d08dff1e227b5ada709bd67280c567d4be)\n"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
@@ -52,11 +52,11 @@ msgstr "Profil actif : %s"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:114
 #, python-format
 msgid "Log out to switch to: %s"
-msgstr ""
+msgstr "Déconnectez-vous pour basculer vers : %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:117
 msgid "Cancel switch"
-msgstr ""
+msgstr "Annuler le basculement"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:124
 msgid "NVIDIA Settings"
@@ -74,6 +74,7 @@ msgstr "Fermer"
 #, python-format
 msgid "Are you sure you want to cancel the switch and return to %s?"
 msgstr ""
+"Êtes-vous sûr de vouloir annuler le basculement et de retourner à %s ?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format
