@@ -26,9 +26,13 @@ NVIDIA_PCI_ID = "10de"
 AMD_PCI_ID = "1002"
 
 def get_output(commands):
-    process = subprocess.Popen(commands, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
-    out, err = process.communicate()
-    return out.decode('utf-8').strip()
+    try:
+        process = subprocess.Popen(commands, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
+        out, err = process.communicate()
+        return out.decode('utf-8').strip()
+    except FileNotFoundError:
+        print("Error: File or directory not found.")
+        return None
 
 class Tray:
     def __init__(self, integrated_is_intel):
