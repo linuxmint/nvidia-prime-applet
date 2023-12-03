@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2022-06-12 10:18+0000\n"
-"Last-Translator: vega m57 <Unknown>\n"
+"PO-Revision-Date: 2023-12-02 11:02+0000\n"
+"Last-Translator: kmyyfz8q <Unknown>\n"
 "Language-Team: Japanese <ja@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2023-07-07 12:58+0000\n"
-"X-Generator: Launchpad (build 2ac9e3bf4ab511504f8fc651371e24a6a047ba12)\n"
+"X-Launchpad-Export-Date: 2023-12-03 13:35+0000\n"
+"X-Generator: Launchpad (build 886068b1e1d10de444fbd53b0c7d3f6d4fb3e658)\n"
 "Language: ja\n"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
@@ -39,7 +39,7 @@ msgstr "AMD (省電力モード)"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:68
 #, python-format
 msgid "Switch to: %s"
-msgstr "%s に切り替える"
+msgstr "%s に切り替え"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:87
 msgid "Unknown mode"
@@ -48,12 +48,12 @@ msgstr "不明なモード"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:102
 #, python-format
 msgid "Active profile: %s"
-msgstr "使用中プロファイル: %s"
+msgstr "使用しているプロファイル: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:114
 #, python-format
 msgid "Log out to switch to: %s"
-msgstr "ログアウトして %s に切り替える"
+msgstr "ログアウトして %s に切り替え"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:117
 msgid "Cancel switch"
@@ -74,7 +74,7 @@ msgstr "終了"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:169
 #, python-format
 msgid "Are you sure you want to cancel the switch and return to %s?"
-msgstr "切り替えをキャンセルして元に戻しますか? : %s"
+msgstr "切り替えをキャンセルして %s に戻しますか？"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format
