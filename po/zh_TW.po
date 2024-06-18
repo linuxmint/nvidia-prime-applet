@@ -1,16 +1,16 @@
-# Kannada translation for linuxmint
-# Copyright (c) 2020 Rosetta Contributors and Canonical Ltd 2020
+# Chinese (Traditional) translation for linuxmint
+# Copyright (c) 2024 Rosetta Contributors and Canonical Ltd 2024
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2020-09-08 07:12+0000\n"
-"Last-Translator: Sai Vinoba <Unknown>\n"
-"Language-Team: Kannada <kn@li.org>\n"
+"PO-Revision-Date: 2024-02-12 12:16+0000\n"
+"Last-Translator: 爽自由 <coby2023t@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <zh_TW@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,67 +19,67 @@ msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
-msgstr "ಎನ್ವಿಡಿಯಾ (ಕಾರ್ಯಕ್ಷಮತೆ ರೀತಿ)"
+msgstr "NVIDIA (效能模式)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA On-Demand"
-msgstr "ಎನ್ವಿಡಿಯಾ ಬೇಡಿಕೆಯಂತೆ"
+msgstr "NVIDIA 自動調整"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "Intel (Power Saving Mode)"
-msgstr "ಇಂಟೆಲ್ (ವಿದ್ಯುತ್ ಉಳಿತಾಯ ರೀತಿ)"
+msgstr "Intel (省電模式)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "AMD (Power Saving Mode)"
-msgstr ""
+msgstr "AMD (省電模式)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:61
 #: usr/lib/nvidia-prime-applet/nvidia-prime:65
 #: usr/lib/nvidia-prime-applet/nvidia-prime:68
 #, python-format
 msgid "Switch to: %s"
-msgstr "ಇದಕ್ಕೆ ಬದಲಾಯಿಸು: %s"
+msgstr "切換到: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:87
 msgid "Unknown mode"
-msgstr "ಅಜ್ಞಾತ ರೀತಿ"
+msgstr "未知的模式"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:102
 #, python-format
 msgid "Active profile: %s"
-msgstr "ಸಕ್ರಿಯ ವ್ಯಕ್ತಿಚಿತ್ರ:  %s"
+msgstr "使用設定: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:114
 #, python-format
 msgid "Log out to switch to: %s"
-msgstr ""
+msgstr "簽出後切換成 %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:117
 msgid "Cancel switch"
-msgstr ""
+msgstr "取消切換"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:124
 msgid "NVIDIA Settings"
-msgstr "ಎನ್ವಿಡಿಯಾ ಸಂಯೋಜನೆಗಳು"
+msgstr "NVIDIA 設定"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:129
 msgid "About"
-msgstr "ಕುರಿತು"
+msgstr "關於"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:133
 msgid "Quit"
-msgstr "ತ್ಯಜಿಸು"
+msgstr "結束"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:169
 #, python-format
 msgid "Are you sure you want to cancel the switch and return to %s?"
-msgstr ""
+msgstr "確定取消切換並回到 %s ?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr "ನೀವು %s ಗೆ ಬದಲಾಯಿಸಲು ಬಯಸುವಿರಾ?"
+msgstr "確定切換到 %s ?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:174
 msgid "Changes will take effect after you log out and log back in."
-msgstr "ಬದಲಾವಣೆಗಳು ನೀವು ನಿರ್ಗಮಿಸಿ ಮತ್ತೆ ಪ್ರವೇಶಿಸಿದ ನಂತರ ಪರಿಣಾಮ ಬೀರುತ್ತವೆ."
+msgstr "當簽出再簽入時才能看到改變。"
