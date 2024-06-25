@@ -1,3 +1,10 @@
+nvidia-prime-applet (1.4.1) wilma; urgency=medium
+
+  [ Michael Webster ]
+  * Fix version check for minimum on-demand support.
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 25 Jun 2024 20:56:41 +0100
+
 nvidia-prime-applet (1.4.0) wilma; urgency=medium
 
   * l10n: Update translations
