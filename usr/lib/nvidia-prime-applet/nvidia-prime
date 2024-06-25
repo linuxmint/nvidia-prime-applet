@@ -5,7 +5,7 @@ import os
 import subprocess
 import sys
 import re
-from packaging import version
+from packaging.version import Version
 
 gi.require_version('Gtk', '3.0')
 gi.require_version('XApp', '1.0')
@@ -151,8 +151,6 @@ class Tray:
         try:
             for line in get_output(["dkms", "status"]).splitlines():
                 if "nvidia" in line:
-                    min_version = version.parse(MIN_ON_DEMAND_VERSION)
-
                     # https://github.com/dell/dkms/commit/f83b758b6fb8ca67b1ab65df9e3d2a1e994eb483
                     if line.startswith("nvidia,"):
                         # Mint 20 (dkms 2.8.1):
@@ -163,14 +161,14 @@ class Tray:
                         # nvidia/470.129.06, 5.15.0-37-generic, x86_64: installed
                         current_version = re.match(r"nvidia/([\d.]+),.*", line).group(1) # Mint 21 (dkms 2.8.7)
 
-                    print("Required nvidia driver version for on-demand: %s" % str(min_version))
+                    print("Required nvidia driver version for on-demand: %s" % MIN_ON_DEMAND_VERSION)
                     print("Detected nvidia driver version: %s" % str(current_version))
-                    if current_version < min_version:
+                    if Version(current_version) < Version(MIN_ON_DEMAND_VERSION):
                         print("On-demand not available")
                         return False
                     break
-        except:
-            pass
+        except Exception as e:
+            print("Error determining on-demand support", str(e))
 
         return True
 
