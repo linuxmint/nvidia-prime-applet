@@ -1,3 +1,9 @@
+nvidia-prime-applet (1.4.2) wilma; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Sun, 21 Jul 2024 10:38:30 +0100
+
 nvidia-prime-applet (1.4.1) wilma; urgency=medium
 
   [ Michael Webster ]
