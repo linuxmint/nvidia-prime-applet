@@ -1,16 +1,16 @@
-# Esperanto translation for linuxmint
-# Copyright (c) 2020 Rosetta Contributors and Canonical Ltd 2020
+# Breton translation for linuxmint
+# Copyright (c) 2024 Rosetta Contributors and Canonical Ltd 2024
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2023-12-13 13:33+0000\n"
-"Last-Translator: Piet Coppens <Unknown>\n"
-"Language-Team: Esperanto <eo@li.org>\n"
+"PO-Revision-Date: 2024-07-04 08:46+0000\n"
+"Last-Translator: Anthony Guechoum <a.guechoum@gmail.com>\n"
+"Language-Team: Breton <br@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,67 +19,67 @@ msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
-msgstr "NVIDIA (Rendimenta reĝimo)"
+msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA On-Demand"
-msgstr "NVIDIA laŭpete"
+msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "Intel (Power Saving Mode)"
-msgstr "Intel (Energiŝpara reĝimo)"
+msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "AMD (Power Saving Mode)"
-msgstr "AMD (Energiŝpara  reĝimo)"
+msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:61
 #: usr/lib/nvidia-prime-applet/nvidia-prime:65
 #: usr/lib/nvidia-prime-applet/nvidia-prime:68
 #, python-format
 msgid "Switch to: %s"
-msgstr "Ŝalti al: %s"
+msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:87
 msgid "Unknown mode"
-msgstr "Nekonata reĝimo"
+msgstr "Mod dianav"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:102
 #, python-format
 msgid "Active profile: %s"
-msgstr "Aktiva profilo: %s"
+msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:114
 #, python-format
 msgid "Log out to switch to: %s"
-msgstr "Elsaluti por ŝalti al: %s"
+msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:117
 msgid "Cancel switch"
-msgstr "Nuligi ŝalton"
+msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:124
 msgid "NVIDIA Settings"
-msgstr "NVIDIA-agordoj"
+msgstr "Arventennoù NVIDIA"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:129
 msgid "About"
-msgstr "Pri"
+msgstr "Diwar-benn"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:133
 msgid "Quit"
-msgstr "Forlasi"
+msgstr "Kuitaat"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:169
 #, python-format
 msgid "Are you sure you want to cancel the switch and return to %s?"
-msgstr "Ĉu vi certas, ke vi deziras nuligi la ŝalton kaj reveni al %s?"
+msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr "Ĉu vi certas, ke vi volas ŝalti al %s?"
+msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:174
 msgid "Changes will take effect after you log out and log back in."
-msgstr "Ŝanĝoj efektiviĝos, post kiam vi elsalutas kaj denove ensalutas."
+msgstr ""
