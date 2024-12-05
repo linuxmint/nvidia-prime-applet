@@ -1,16 +1,16 @@
-# Persian translation for linuxmint
-# Copyright (c) 2023 Rosetta Contributors and Canonical Ltd 2023
+# Telugu translation for linuxmint
+# Copyright (c) 2024 Rosetta Contributors and Canonical Ltd 2024
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2023-03-19 17:52+0000\n"
-"Last-Translator: Mr.Ravi <Unknown>\n"
-"Language-Team: Persian <fa@li.org>\n"
+"PO-Revision-Date: 2024-09-13 13:54+0000\n"
+"Last-Translator: B.Laxmi koundinya <Unknown>\n"
+"Language-Team: Telugu <te@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,67 +19,69 @@ msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
-msgstr "NVIDIA (حالت بازدهی)"
+msgstr "NVIDIA (పనితీరు మోడ్)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA On-Demand"
-msgstr "NVIDIA بر حسب تقاضا"
+msgstr "NVIDIA ఆన్-డిమాండ్"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "Intel (Power Saving Mode)"
-msgstr "Intel (حالت ذخیره انرژی)"
+msgstr "ఇంటెల్ (పవర్ సేవింగ్ మోడ్)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "AMD (Power Saving Mode)"
-msgstr "AMD (حالت ذخیره انرژی)"
+msgstr "AMD (పవర్ సేవింగ్ మోడ్)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:61
 #: usr/lib/nvidia-prime-applet/nvidia-prime:65
 #: usr/lib/nvidia-prime-applet/nvidia-prime:68
 #, python-format
 msgid "Switch to: %s"
-msgstr "تغییر به: %s"
+msgstr "దీనికి మారండి: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:87
 msgid "Unknown mode"
-msgstr "حالت ناشناخته"
+msgstr "తెలియని మోడ్"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:102
 #, python-format
 msgid "Active profile: %s"
-msgstr "پروفایل فعال: %s"
+msgstr "సక్రియ ప్రొఫైల్: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:114
 #, python-format
 msgid "Log out to switch to: %s"
-msgstr "برای تغییر به %s از سیستم خارج شوید."
+msgstr "దీనికి మారడానికి లాగ్ అవుట్ చేయండి: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:117
 msgid "Cancel switch"
-msgstr "لغو تغییر"
+msgstr "స్విచ్ రద్దు చేయండి"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:124
 msgid "NVIDIA Settings"
-msgstr "تنظیمات NVIDIA"
+msgstr "NVIDIA సెట్టింగ్‌లు"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:129
 msgid "About"
-msgstr "درباره"
+msgstr "గురించి"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:133
 msgid "Quit"
-msgstr "خروج"
+msgstr "నిష్క్రమించు"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:169
 #, python-format
 msgid "Are you sure you want to cancel the switch and return to %s?"
-msgstr "آیا مطمئنید میخواهید تغییر را لغو کنید و به %s باز گردید؟"
+msgstr ""
+"మీరు ఖచ్చితంగా స్విచ్‌ని రద్దు చేసి %sకి తిరిగి వెళ్లాలనుకుంటున్నారా?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr "آیا مطمئنید که میخواهید به %s تغییر دهید؟"
+msgstr "మీరు ఖచ్చితంగా %sకి మారాలనుకుంటున్నారా?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:174
 msgid "Changes will take effect after you log out and log back in."
-msgstr "تغییرات با خروج و ورود دوباره به سیستم اجرایی میشوند."
+msgstr ""
+"మీరు లాగ్ అవుట్ చేసి తిరిగి లాగిన్ అయిన తర్వాత మార్పులు ప్రభావం చూపుతాయి."
