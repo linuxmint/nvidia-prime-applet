@@ -1,3 +1,9 @@
+nvidia-prime-applet (1.4.5) zara; urgency=medium
+
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Thu, 31 Jul 2025 11:58:09 +0200
+
 nvidia-prime-applet (1.4.4) xia; urgency=medium
 
   * l10n: Update translations
