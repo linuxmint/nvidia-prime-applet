@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2020-09-08 07:12+0000\n"
-"Last-Translator: Sai Vinoba <Unknown>\n"
+"PO-Revision-Date: 2025-07-26 16:09+0000\n"
+"Last-Translator: Manas salian <Unknown>\n"
 "Language-Team: Kannada <kn@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-01-06 12:01+0000\n"
-"X-Generator: Launchpad (build 6394e03793719e8d73f5a60b5439440e693c92f1)\n"
+"X-Launchpad-Export-Date: 2025-07-31 09:25+0000\n"
+"X-Generator: Launchpad (build 647c49fc7f614412c17a151d8ba4fadd90c06a00)\n"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
@@ -31,7 +31,7 @@ msgstr "ಇಂಟೆಲ್ (ವಿದ್ಯುತ್ ಉಳಿತಾಯ ರೀ�
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "AMD (Power Saving Mode)"
-msgstr ""
+msgstr "AMD (ವಿದ್ಯುತ್ ಉಳಿತಾಯ ಮೋಡ್)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:61
 #: usr/lib/nvidia-prime-applet/nvidia-prime:65
@@ -52,11 +52,11 @@ msgstr "ಸಕ್ರಿಯ ವ್ಯಕ್ತಿಚಿತ್ರ:  %s"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:114
 #, python-format
 msgid "Log out to switch to: %s"
-msgstr ""
+msgstr "ಇದಕ್ಕೆ ಬದಲಾಯಿಸಲು ಲಾಗ್ ಔಟ್ ಮಾಡಿ: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:117
 msgid "Cancel switch"
-msgstr ""
+msgstr "ರದ್ದು ಸ್ವಿಚ್ಚು"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:124
 msgid "NVIDIA Settings"
@@ -73,7 +73,7 @@ msgstr "ತ್ಯಜಿಸು"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:169
 #, python-format
 msgid "Are you sure you want to cancel the switch and return to %s?"
-msgstr ""
+msgstr "ನೀವು ಬದಲಾವಣೆಯನ್ನು ರದ್ದುಗೊಳಿಸಿ %s ಗೆ ಹಿಂತಿರುಗಲು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format

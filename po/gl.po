@@ -1,16 +1,16 @@
-# Rusyn translation for linuxmint
-# Copyright (c) 2022 Rosetta Contributors and Canonical Ltd 2022
+# Galician translation for linuxmint
+# Copyright (c) 2025 Rosetta Contributors and Canonical Ltd 2025
 # This file is distributed under the same license as the linuxmint package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2022-11-13 18:49+0000\n"
-"Last-Translator: Vondrosh tvmc <Unknown>\n"
-"Language-Team: Rusyn <rue@li.org>\n"
+"PO-Revision-Date: 2025-03-05 17:29+0000\n"
+"Last-Translator: Eloi Barcón Piñeiro <Unknown>\n"
+"Language-Team: Galician <gl@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
-msgstr "NVIDIA (Режім продуковности)"
+msgstr ""
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA On-Demand"
@@ -38,48 +38,49 @@ msgstr ""
 #: usr/lib/nvidia-prime-applet/nvidia-prime:68
 #, python-format
 msgid "Switch to: %s"
-msgstr ""
+msgstr "Cambiar a: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:87
 msgid "Unknown mode"
-msgstr ""
+msgstr "Modo descoñecido"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:102
 #, python-format
 msgid "Active profile: %s"
-msgstr ""
+msgstr "Activar perfil: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:114
 #, python-format
 msgid "Log out to switch to: %s"
-msgstr ""
+msgstr "Pechar sesión para cambiar a: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:117
 msgid "Cancel switch"
-msgstr ""
+msgstr "Cancelar cambio"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:124
 msgid "NVIDIA Settings"
-msgstr ""
+msgstr "Axustes de NVIDIA"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:129
 msgid "About"
-msgstr "За"
+msgstr "Acerca de"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:133
 msgid "Quit"
-msgstr "Уйти"
+msgstr "Saír"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:169
 #, python-format
 msgid "Are you sure you want to cancel the switch and return to %s?"
-msgstr ""
+msgstr "Estas seguro de que queres cancelar o cambio e volver a %s?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr ""
+msgstr "Estas seguro de que queres cambiar a %s?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:174
 msgid "Changes will take effect after you log out and log back in."
 msgstr ""
+"Os cambios terán efecto despois de pechar sesión e iniciar sesión de novo."
