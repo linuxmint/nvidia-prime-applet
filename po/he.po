@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2025-11-02 20:44+0000\n"
-"Last-Translator: Rony <Unknown>\n"
+"PO-Revision-Date: 2025-12-21 09:56+0000\n"
+"Last-Translator: Avi Markovitz <avi.markovitz@gmail.com>\n"
 "Language-Team: Hebrew <he@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-12-12 13:32+0000\n"
-"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
+"X-Launchpad-Export-Date: 2026-01-08 15:44+0000\n"
+"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
@@ -27,11 +27,11 @@ msgstr "‏NVIDIA לפי דרישה"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "Intel (Power Saving Mode)"
-msgstr "אינטל (מצב חיסכון בחשמל)"
+msgstr "אינטל (מצב חיסכון צריכת חשמל)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "AMD (Power Saving Mode)"
-msgstr "‏AMD (מצב חיסכון בחשמל)"
+msgstr "‏AMD (מצב חיסכון צריכת חשמל)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:61
 #: usr/lib/nvidia-prime-applet/nvidia-prime:65

@@ -8,18 +8,19 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2025-09-08 18:25+0000\n"
+"PO-Revision-Date: 2025-12-27 15:57+0000\n"
 "Last-Translator: Klavs Petersons <Unknown>\n"
 "Language-Team: Latvian <lv@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2025-12-12 13:32+0000\n"
-"X-Generator: Launchpad (build 379e22b8475e3402088a4cdb4a6e7936a4d28414)\n"
+"X-Launchpad-Export-Date: 2026-01-08 15:44+0000\n"
+"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"Language: lv\n"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
-msgstr "NVIDIA (Veiktspējas režīms)"
+msgstr "NVIDIA (veiktspējas režīms)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA On-Demand"
@@ -27,7 +28,7 @@ msgstr "NVIDIA pēc pieprasījuma"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "Intel (Power Saving Mode)"
-msgstr "INTEL (Strāvas taupīšanas režīms)"
+msgstr "INTEL (strāvas taupīšanas režīms)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "AMD (Power Saving Mode)"
@@ -73,14 +74,13 @@ msgstr "Iziet"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:169
 #, python-format
 msgid "Are you sure you want to cancel the switch and return to %s?"
-msgstr "Vai tiešām vēlaties atcelt pārslēgšanos un atgriezties %s?"
+msgstr "Vai tiešām vēlies atcelt pārslēgšanos un atgriezties %s?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr "Vai esat pārliecināts, ka vēlaties pārslēgt uz %s?"
+msgstr "Vai esi pārliecināts, ka vēlies pārslēgties uz %s?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:174
 msgid "Changes will take effect after you log out and log back in."
-msgstr ""
-"Izmaiņas stāsies spēkā, kad izrakstīsieties un pierakstīsieties atpakaļ."
+msgstr "Izmaiņas stāsies spēkā, kad izrakstīsies un pierakstīsies atpakaļ."
