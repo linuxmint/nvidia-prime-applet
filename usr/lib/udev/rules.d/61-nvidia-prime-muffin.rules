@@ -1,0 +1,3 @@
+# Have muffin composite on the NVIDIA GPU in Wayland sessions while the
+# PRIME profile is set to performance mode ("prime-select nvidia").
+SUBSYSTEM=="drm", KERNEL=="card[0-9]*", DRIVERS=="nvidia", PROGRAM=="/usr/bin/grep -qx on /etc/prime-discrete", TAG+="muffin-device-preferred-primary"

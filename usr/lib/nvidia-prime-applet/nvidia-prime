@@ -25,6 +25,13 @@ INTEL_PCI_ID = "8086"
 NVIDIA_PCI_ID = "10de"
 AMD_PCI_ID = "1002"
 
+def performance_mode_supported():
+    # Performance mode is an Xorg configuration. To support it in Cinnamon Wayland
+    # sessions we ship a udev rule that checks /etc/prime-discrete.
+    if os.environ.get("XDG_SESSION_TYPE") != "wayland":
+        return True
+    return "X-Cinnamon" in os.environ.get("XDG_CURRENT_DESKTOP", "").split(":")
+
 def get_output(commands):
     try:
         process = subprocess.Popen(commands, stdout=subprocess.PIPE, stderr=subprocess.DEVNULL)
@@ -43,6 +50,8 @@ class Tray:
         self.switched_to = None
         self.mode_at_start = None  # Holds the name to pass to prime-select
         self.mode_name_at_start = None  # Holds the name to show to users
+        self.is_wayland = os.environ.get("XDG_SESSION_TYPE") == "wayland"
+        self.performance_supported = performance_mode_supported()
         self.build_menu()
 
     def build_menu(self):
@@ -111,12 +120,15 @@ class Tray:
         if self.switched_to is None:
             if mode != self.integrated_mode:
                 menu.append(integrated)
-            if mode != NVIDIA_MODE:
+            if mode != NVIDIA_MODE and self.performance_supported:
                 menu.append(nvidia)
             if mode != ON_DEMAND_MODE and hybrid_supported:
                 menu.append(ondemand)
         else:
-            confirm_item = Gtk.MenuItem(label=_("Log out to switch to: %s") % self.switched_to)
+            if self.is_wayland:
+                confirm_item = Gtk.MenuItem(label=_("Restart to switch to: %s") % self.switched_to)
+            else:
+                confirm_item = Gtk.MenuItem(label=_("Log out to switch to: %s") % self.switched_to)
             confirm_item.set_sensitive(False)
             menu.append(confirm_item)
             cancel_item = Gtk.MenuItem(label=_("Cancel switch"))
@@ -182,7 +194,10 @@ class Tray:
             message = _("Are you sure you want to switch to %s?") % mode_description
         dialog = Gtk.MessageDialog(parent=None, message_type=Gtk.MessageType.INFO, buttons=Gtk.ButtonsType.YES_NO, text=message)
         if not is_cancel:
-            dialog.format_secondary_text(_('Changes will take effect after you log out and log back in.'))
+            if self.is_wayland:
+                dialog.format_secondary_text(_('Changes will take effect after you restart the computer.'))
+            else:
+                dialog.format_secondary_text(_('Changes will take effect after you log out and log back in.'))
         dialog.set_deletable(False)
         dialog.set_title("NVIDIA Optimus")
         dialog.set_icon_name("prime-tray-nvidia")
