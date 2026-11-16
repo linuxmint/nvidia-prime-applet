@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2023-05-08 12:53+0000\n"
-"Last-Translator: Ourania J. Banti <Unknown>\n"
+"PO-Revision-Date: 2026-10-13 21:12+0000\n"
+"Last-Translator: Dimitris Spentzos <Unknown>\n"
 "Language-Team: Greek <el@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-01-08 15:44+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:00+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
-msgstr "NVIDIA (Λειτουργία Απόδοσης)"
+msgstr "NVIDIA (Λειτουργία επιδόσεων)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA On-Demand"
@@ -31,7 +31,7 @@ msgstr "Intel (Λειτουργία εξοικονόμησης ενέργεια�
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "AMD (Power Saving Mode)"
-msgstr "AMD (Κατάσταση Εξοικονόμησης Ενέργειας)"
+msgstr "AMD (Λειτουργία εξοικονόμησης ενέργειας)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:61
 #: usr/lib/nvidia-prime-applet/nvidia-prime:65
@@ -52,7 +52,7 @@ msgstr "Ενεργό προφίλ: %s"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:114
 #, python-format
 msgid "Log out to switch to: %s"
-msgstr "Αποσυνδεθείτε για την εναλλαγή σε: %s"
+msgstr "Αποσυνδεθείτε για εναλλαγή σε: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:117
 msgid "Cancel switch"
@@ -64,7 +64,7 @@ msgstr "Ρυθμίσεις NVIDIA"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:129
 msgid "About"
-msgstr "Περί"
+msgstr "Πληροφορίες"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:133
 msgid "Quit"
@@ -74,13 +74,13 @@ msgstr "Έξοδος"
 #, python-format
 msgid "Are you sure you want to cancel the switch and return to %s?"
 msgstr ""
-"Είστε βέβαιοι ότι θέλετε να ακυρώσετε την εναλλαγή και να επιστρέψετε στο %s;"
+"Θέλετε σίγουρα να ακυρώσετε την εναλλαγή και να επιστρέψετε στο «%s»;"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr "Είστε σίγουροι ότι θέλετε να κάνετε εναλλαγή σε %s;"
+msgstr "Θέλετε σίγουρα να κάνετε εναλλαγή στο «%s»;"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:174
 msgid "Changes will take effect after you log out and log back in."
-msgstr "Οι αλλαγές θα εφαρμοστούν κατόπιν εξόδου και επανασύνδεσης"
+msgstr "Οι αλλαγές θα εφαρμοστούν κατόπιν αποσύνδεσης και επανασύνδεσης."

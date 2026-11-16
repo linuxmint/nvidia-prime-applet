@@ -8,55 +8,56 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2021-12-05 09:37+0000\n"
-"Last-Translator: Murat Käribay <Unknown>\n"
+"PO-Revision-Date: 2026-01-24 17:27+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <Unknown>\n"
 "Language-Team: Kazakh <kk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-01-08 15:44+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:00+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"Language: kk\n"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
-msgstr "NVIDIA"
+msgstr "NVIDIA (Өнімділік режимі)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA On-Demand"
-msgstr "NVIDIA талабымен"
+msgstr "NVIDIA сұрауы бойынша"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "Intel (Power Saving Mode)"
-msgstr "Intel (Қуат сақтау режімі)"
+msgstr "Intel (Энергия үнемдеу режимі)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "AMD (Power Saving Mode)"
-msgstr "AMD (Қуат сақтау режімі)"
+msgstr "AMD (Энергия үнемдеу режимі)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:61
 #: usr/lib/nvidia-prime-applet/nvidia-prime:65
 #: usr/lib/nvidia-prime-applet/nvidia-prime:68
 #, python-format
 msgid "Switch to: %s"
-msgstr "Ауыстыру: %s"
+msgstr "Режимге ауысу: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:87
 msgid "Unknown mode"
-msgstr "Белгісіз режім"
+msgstr "Белгісіз режим"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:102
 #, python-format
 msgid "Active profile: %s"
-msgstr "Белсенді бейін: %s"
+msgstr "Белсенді профиль: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:114
 #, python-format
 msgid "Log out to switch to: %s"
-msgstr ""
+msgstr "Жүйеден шығу, келесіге ауысу үшін: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:117
 msgid "Cancel switch"
-msgstr ""
+msgstr "Ауысудан бас тарту"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:124
 msgid "NVIDIA Settings"
@@ -64,7 +65,7 @@ msgstr "NVIDIA баптаулары"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:129
 msgid "About"
-msgstr "Бағдарлама туралы"
+msgstr "Осы туралы"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:133
 msgid "Quit"
@@ -73,13 +74,13 @@ msgstr "Шығу"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:169
 #, python-format
 msgid "Are you sure you want to cancel the switch and return to %s?"
-msgstr ""
+msgstr "Ауысудан бас тартып, қайтуды қалайтыныңызға сенімдісіз бе: %s?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr "%s ауыстырғыңыз келе ме?"
+msgstr "Ауысуды қалайтыныңызға сенімдісіз бе: %s?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:174
 msgid "Changes will take effect after you log out and log back in."
-msgstr "Жүйден шығып, қайтадан кірген кезде өзгертулер күшіне енеді."
+msgstr "Өзгерістер жүйеден шығып, қайта кіргеннен кейін күшіне енеді."

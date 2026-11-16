@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2020-06-10 15:38+0000\n"
-"Last-Translator: Clement Lefebvre <root@linuxmint.com>\n"
+"PO-Revision-Date: 2026-10-07 11:24+0000\n"
+"Last-Translator: Stéfan Driaan Turvey <Unknown>\n"
 "Language-Team: Afrikaans <af@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-01-08 15:44+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:00+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
@@ -31,7 +31,7 @@ msgstr "Intel (Kragbesparingsmodus)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "AMD (Power Saving Mode)"
-msgstr ""
+msgstr "AMD (Kragbesparingsmodus)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:61
 #: usr/lib/nvidia-prime-applet/nvidia-prime:65
@@ -52,11 +52,11 @@ msgstr "Aktiewe profiel: %s"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:114
 #, python-format
 msgid "Log out to switch to: %s"
-msgstr ""
+msgstr "Meld af om oor te skakel na: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:117
 msgid "Cancel switch"
-msgstr ""
+msgstr "Kanselleer oorskakeling"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:124
 msgid "NVIDIA Settings"
@@ -64,16 +64,16 @@ msgstr "NVIDIA Instellings"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:129
 msgid "About"
-msgstr "Oor"
+msgstr "Omtrent"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:133
 msgid "Quit"
-msgstr "Sluit af"
+msgstr "Verlaat"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:169
 #, python-format
 msgid "Are you sure you want to cancel the switch and return to %s?"
-msgstr ""
+msgstr "Is jy seker jy wil die oorskakeling kanselleer en terugkeer na %s?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format

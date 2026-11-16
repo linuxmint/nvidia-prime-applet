@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2023-07-03 06:13+0000\n"
-"Last-Translator: Ari Ervasti <ari.ervasti87@gmail.com>\n"
+"PO-Revision-Date: 2026-11-07 05:36+0000\n"
+"Last-Translator: Hiiri522 <hhiiri522@gmail.com>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-01-08 15:44+0000\n"
-"X-Generator: Launchpad (build 99c00f518760bdd50fc6e353e7736d2fff8fba4a)\n"
+"X-Launchpad-Export-Date: 2026-11-16 12:00+0000\n"
+"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:16
 msgid "NVIDIA (Performance Mode)"
-msgstr "NVIDIA (suorituskyky)"
+msgstr "NVIDIA (suorituskykytila)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA On-Demand"
@@ -27,18 +27,18 @@ msgstr "NVIDIA tarvittaessa"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "Intel (Power Saving Mode)"
-msgstr "Intel (virransäästö)"
+msgstr "Intel (virransäästötila)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "AMD (Power Saving Mode)"
-msgstr "AMD (virransäästö)"
+msgstr "AMD (virransäästötila)"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:61
 #: usr/lib/nvidia-prime-applet/nvidia-prime:65
 #: usr/lib/nvidia-prime-applet/nvidia-prime:68
 #, python-format
 msgid "Switch to: %s"
-msgstr "Vaihda: %s"
+msgstr "Vaihda tilaan: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:87
 msgid "Unknown mode"
@@ -52,7 +52,7 @@ msgstr "Aktiivinen profiili: %s"
 #: usr/lib/nvidia-prime-applet/nvidia-prime:114
 #, python-format
 msgid "Log out to switch to: %s"
-msgstr "Kirjaudu ulos ja vaihda: %s"
+msgstr "Kirjaudu ulos ja vaihda tilaan: %s"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:117
 msgid "Cancel switch"
@@ -60,7 +60,7 @@ msgstr "Peruuta vaihto"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:124
 msgid "NVIDIA Settings"
-msgstr "NVIDIA asetukset"
+msgstr "NVIDIA-asetukset"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:129
 msgid "About"
@@ -68,18 +68,19 @@ msgstr "Tietoja"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:133
 msgid "Quit"
-msgstr "Sulje"
+msgstr "Lopeta"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:169
 #, python-format
 msgid "Are you sure you want to cancel the switch and return to %s?"
-msgstr "Haluatko peruuttaa ja vaihtaa %s?"
+msgstr "Haluatko varmasti peruuttaa vaihdon ja palata tilaan %s?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:171
 #, python-format
 msgid "Are you sure you want to switch to %s?"
-msgstr "Haluatko varmasti vaihtaa %s?"
+msgstr "Haluatko varmasti vaihtaa tilaan %s?"
 
 #: usr/lib/nvidia-prime-applet/nvidia-prime:174
 msgid "Changes will take effect after you log out and log back in."
-msgstr "Muutokset tulevat voimaan kun kirjaudut ulos ja takaisin sisään."
+msgstr ""
+"Muutokset tulevat voimaan, kun olet kirjautunut ulos ja takaisin sisään."
