@@ -8,80 +8,89 @@ msgid ""
 msgstr ""
 "Project-Id-Version: linuxmint\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2022-06-10 11:55+0200\n"
-"PO-Revision-Date: 2022-06-24 11:25+0000\n"
+"POT-Creation-Date: 2026-11-16 20:49+0000\n"
+"PO-Revision-Date: 2026-11-19 18:57+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic <is@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2026-11-16 12:00+0000\n"
-"X-Generator: Launchpad (build 72ba15af7e009b17d4aa1467977127ac8392a4de)\n"
+"X-Launchpad-Export-Date: 2026-11-24 12:01+0000\n"
+"X-Generator: Launchpad (build 012091084314157d19ae714f55ef4c582ff0feb5)\n"
 "Language: is\n"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:16
+#: usr/lib/nvidia-prime-applet/nvidia-prime:17
 msgid "NVIDIA (Performance Mode)"
 msgstr "NVIDIA (afkastahamur)"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:17
+#: usr/lib/nvidia-prime-applet/nvidia-prime:18
 msgid "NVIDIA On-Demand"
 msgstr "NVIDIA Eftir-þörfum"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:18
+#: usr/lib/nvidia-prime-applet/nvidia-prime:19
 msgid "Intel (Power Saving Mode)"
 msgstr "Intel (orkusparnaðarhamur)"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:19
+#: usr/lib/nvidia-prime-applet/nvidia-prime:20
 msgid "AMD (Power Saving Mode)"
 msgstr "AMD (Orkusparnaðarhamur)"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:61
-#: usr/lib/nvidia-prime-applet/nvidia-prime:65
-#: usr/lib/nvidia-prime-applet/nvidia-prime:68
+#: usr/lib/nvidia-prime-applet/nvidia-prime:75
+#: usr/lib/nvidia-prime-applet/nvidia-prime:79
+#: usr/lib/nvidia-prime-applet/nvidia-prime:82
 #, python-format
 msgid "Switch to: %s"
 msgstr "Skipta yfir á: %s"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:87
+#: usr/lib/nvidia-prime-applet/nvidia-prime:101
 msgid "Unknown mode"
 msgstr "Óþekktur hamur"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:102
+#: usr/lib/nvidia-prime-applet/nvidia-prime:116
 #, python-format
 msgid "Active profile: %s"
 msgstr "Virkt snið: %s"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:114
+#: usr/lib/nvidia-prime-applet/nvidia-prime:129
+#, python-format
+msgid "Restart to switch to: %s"
+msgstr "Endurræstu til að skipta á: %s"
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:131
 #, python-format
 msgid "Log out to switch to: %s"
 msgstr "Skráðu út til að skipta yfir í: %s"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:117
+#: usr/lib/nvidia-prime-applet/nvidia-prime:134
 msgid "Cancel switch"
 msgstr "Hætta við að skipta"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:124
+#: usr/lib/nvidia-prime-applet/nvidia-prime:141
 msgid "NVIDIA Settings"
 msgstr "Stillingar NVIDIA"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:129
+#: usr/lib/nvidia-prime-applet/nvidia-prime:146
 msgid "About"
 msgstr "Um hugbúnaðinn"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:133
+#: usr/lib/nvidia-prime-applet/nvidia-prime:150
 msgid "Quit"
 msgstr "Hætta"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:169
+#: usr/lib/nvidia-prime-applet/nvidia-prime:192
 #, python-format
 msgid "Are you sure you want to cancel the switch and return to %s?"
 msgstr "Ertu viss um að þú viljir hætta við að skipta og snúa aftur í %s?"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:171
+#: usr/lib/nvidia-prime-applet/nvidia-prime:194
 #, python-format
 msgid "Are you sure you want to switch to %s?"
 msgstr "Ertu viss um að þú viljir skipta yfir á %s?"
 
-#: usr/lib/nvidia-prime-applet/nvidia-prime:174
+#: usr/lib/nvidia-prime-applet/nvidia-prime:198
+msgid "Changes will take effect after you restart the computer."
+msgstr "Breytingar taka gildi eftir að þú hefur endurræst tölvuna."
+
+#: usr/lib/nvidia-prime-applet/nvidia-prime:200
 msgid "Changes will take effect after you log out and log back in."
 msgstr "Breytingar taka gildi eftir næstu innskráningu."
