@@ -1,3 +1,10 @@
+nvidia-prime-applet (1.5.1) adrien; urgency=medium
+
+  * l10n: Update POT
+  * l10n: Update translations
+
+ -- Clement Lefebvre <root@linuxmint.com>  Tue, 24 Nov 2026 16:25:21 +0000
+
 nvidia-prime-applet (1.5.0) adrien; urgency=medium
 
   [ Michael Webster ]
